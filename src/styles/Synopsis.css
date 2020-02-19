@@ -1,0 +1,14 @@
+.wrapper-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.home{
+    padding-top: 200px;
+    padding-left: 100px;
+    /* padding-right: 50px; */
+}
+.wrapper-content{
+    margin-top: 200px;
+    
+}

@@ -1,0 +1,125 @@
+  .burgerbar{
+        margin-top: 50px;
+        /* justify-content: left; */
+        cursor: pointer;
+        border-radius: 1px solid white; 
+    }
+    .sidebar {
+        position: fixed;
+        top:0;
+        left: -500px;
+        width: 0px;
+        transition: width .8s ease;
+        z-index: 999;
+        background:black;
+        /* background-image: url('../images/BACKGROUND/BG05.png'); */
+        height: 100vh;
+        /* display: flex;
+        justify-content: space-around; */
+    }
+    .sidebar_bg {
+        z-index: 100; 
+        height: 300vh;
+        width: 0vh;
+        top:0;
+        position: fixed;
+        background: rgba(000,000,000, 0.5);
+        display:none;
+        transition: width .8s ease-out;
+    }
+    .sidebar_bg {
+        z-index: 100;
+        height: 100vh;
+        width: 0vh; 
+        top:0;
+        position: fixed;
+        background: rgba(000,000,000, 0.5);
+        display:none;
+        transition: width .8s ease-out;
+    }
+    ul li {
+        color: white;
+    }
+    .text-nav{
+     
+        padding-top: 300px;
+        padding-bottom: 300px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 100vh;
+        width: 100vh;
+        text-align: center;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+      color: white;
+    }
+    
+    .wrapper-nav{
+        display: flex;
+        justify-content: space-around;
+        /* left: -400px; */
+    
+    }
+    .text-menu {
+        color: white;
+       
+    }
+    
+    .text-menu:hover{
+          color: red;
+    }
+    
+    .close{
+        cursor: pointer;
+        margin-right: 15px;
+    }
+    .wrapper-sidebar{
+     /* display: flex;
+     justify-content: space-around; */
+     /* background-color: salmon; */
+     /* border: 1px solid white; */
+     height: 100vh;
+     
+    }
+    .exit{
+        margin-top: 50px;
+    
+    }
+    .menu-logo{
+       
+        padding-left: 30px;
+        display: flex;
+        /* align-items: flex-start; */
+        justify-content: space-between;
+        z-index: 1;
+        width: 100%;
+        
+    }
+    .home{
+        margin-top: -155px;
+        margin-right: 25px;
+    }
+
+    @media only screen and (max-width: 600px){
+        .wrapper-nav{
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            padding: 10px;
+            height: 634px;
+        }
+        .text-nav{
+        padding: 10px;
+        text-align: left;
+        display: contents;
+        }
+       .close {
+          position: absolute;
+          /* background-color: blueviolet; */
+        margin-left: 85%;
+        /* margin-bottom: 90%; */
+        margin-top: -150%;
+       }
+       
+    }

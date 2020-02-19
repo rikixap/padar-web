@@ -1,0 +1,56 @@
+.boxset{
+    border: 1px solid white;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.stock{
+    margin-bottom: 15px;
+}
+.btn-shop{
+    margin-top: 30px;
+}
+.tambah{
+    margin-right: 15px;
+}
+.garis-merch{
+    border: 1px solid white;
+}
+.pembatas {
+    border: 1px solid red;
+    width: 50px;
+}
+.rumah{
+    cursor: pointer;
+}
+
+.keterangan {
+    margin-left:100px;
+    margin-top: 10px;
+    border: 1px solid white;
+    background: white;
+    color: #000;
+    border-radius: 10px;
+    width: 500px;
+}
+.slick-slider {
+    width: 200px;
+    height: 200px;
+}
+.img1 img{
+    height: 200px;
+    width: 200px;
+}
+@media only screen and (max-width: 600px){
+    .keterangan {
+        width: 208px;
+    }
+    .content {
+        display: flex;
+        align-items: flex-start;
+        padding-left: 10px;
+    }
+}
+
