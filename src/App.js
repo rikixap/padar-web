@@ -11,6 +11,7 @@ import Synopsis from './pages/Synopsis';
 import Streaming from './pages/Streaming';
 import Merch from './pages/Merch';
 import About from './pages/About';
+import Karakter from './pages/karakter';
 
 
 
@@ -18,13 +19,14 @@ library.add(faGhost, fas);
 function App() {
   return (
     <div>
-     <Router>
+    <Router>
         <Route exact path ="/" component={Home} />
         <Route path="/synopsis" component={Synopsis}/>
-        <Route path="/streaming" component={Streaming}/>
+        <Route path="/film" component={Streaming}/>
         <Route path="/merch" component={Merch}/>
         <Route path="/about" component={About}/>
-     </Router>
+        <Route path="/karakter" component={Karakter}/>
+    </Router>
     </div>
   );
 }

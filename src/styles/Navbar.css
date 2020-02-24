@@ -2,7 +2,9 @@
         margin-top: 50px;
         /* justify-content: left; */
         cursor: pointer;
-        border-radius: 1px solid white; 
+        border-radius: 1px solid white;
+        margin-left: 30px;
+        /* margin-top: 70px;  */
     }
     .sidebar {
         position: fixed;
@@ -11,7 +13,7 @@
         width: 0px;
         transition: width .8s ease;
         z-index: 999;
-        background:black;
+        background: rgba(000,000,000, 0.8);
         /* background-image: url('../images/BACKGROUND/BG05.png'); */
         height: 100vh;
         /* display: flex;
@@ -89,17 +91,17 @@
     .menu-logo{
        
         padding-left: 30px;
-        display: flex;
-        /* align-items: flex-start; */
-        justify-content: space-between;
-        z-index: 1;
+       display: flex;
+       justify-content: space-between;
+        z-index: 9;
         width: 100%;
         
     }
-    .home{
-        margin-top: -155px;
-        margin-right: 25px;
+    .rumah{
+        margin-top: 50px;
+        margin-right: 50px;
     }
+    
 
     @media only screen and (max-width: 600px){
         .wrapper-nav{
@@ -120,6 +122,10 @@
         margin-left: 85%;
         /* margin-bottom: 90%; */
         margin-top: -150%;
+    
        }
-       
+     .burgerbar{
+         margin-top: 50px;
+         margin-left: 0.2px;
+     }
     }

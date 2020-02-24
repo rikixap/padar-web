@@ -43,6 +43,18 @@
     height: 200px;
     width: 200px;
 }
+.slick-side {
+    position: relative;
+  }
+
+  
+.Activated_content__2QBG5{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+object-fit: cover;
+}
 @media only screen and (max-width: 600px){
     .keterangan {
         width: 208px;
@@ -52,5 +64,11 @@
         align-items: flex-start;
         padding-left: 10px;
     }
+    .boxset{
+        margin-left: 50px;
+        margin-right:50px ;
+        margin-bottom: 40px;
+    }
+ 
 }
 

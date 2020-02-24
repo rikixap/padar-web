@@ -4,17 +4,45 @@ import '../styles/Merch.css';
 import boxset1 from '../images/MERCH/1 .png';
 import boxset2 from '../images/MERCH/2 (3).png'
 import Slider from 'react-slick';
+// import { ImageZoom } from 'react-simple-image-zoom';
+ 
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
+import Footer from '../components/Footer';
+// import {
+//     Magnifier,
+//     GlassMagnifier,
+//     SideBySideMagnifier,
+//     PictureInPictureMagnifier,
+//     MOUSE_ACTIVATION,
+//     TOUCH_ACTIVATION
+//   } from "react-image-magnifiers";
+
 var settings = {
     dots: true,
     infinite: true,
     // slide: 'li',
     slidesToShow: 1,
     slideToScroll: 3
-}
+};
+// const imageProps = {
+//     smallImage: {
+//       alt: 'Phasellus laoreet',
+//       isFluidWidth: true,
+//       src: boxset1
+//     },
+//     largeImage: {
+//       src: boxset1,
+//       width: 1200,
+//       height: 1800
+//     },
+//     enlargedImageContainerStyle: { background: '#fff', zIndex: 9 }
+//   };
 class Merch extends Component{
+
     render(){ 
         return(   
-            <div>
+            <div> 
             <div>
                 <div className="wrapper-header">
                     <Navbar/>
@@ -23,9 +51,19 @@ class Merch extends Component{
                     <p className="text-center">Merch</p>
                     <hr className="pembatas"/>
                     <div className="d-flex row content">
-                        <div className="boxset">
+                        <div className="boxset">        
                         <Slider {...settings}>
-                            <div className="img1"><img src={boxset1}/></div>
+                            <div className="img1">
+                                <Zoom>
+                                    <img
+                                    alt="that wanaka tree"
+                                    src={boxset1}
+                                    width="200"
+                                    style={{top:'40px'}}
+                                    className="img-merch"
+                                    />
+                                </Zoom>
+                            </div>
                             <div className="img1"><img src={boxset2}/></div>
                         </Slider>   
                         </div>
@@ -45,6 +83,7 @@ class Merch extends Component{
                     </div>
                 </div>
             </div>
+            <Footer/>
             </div>
         
         )

@@ -1,7 +1,12 @@
 .containerSlide {
-    width: 1000px;
-    padding-top: 200px;
-    background-color: pink;
+    display: flex;
+    align-self: center;
+    background-color: brown;
+    /* justify-content: center; */
+    /* width: 1000px; */
+    /* padding-top: 300px; */
+    /* margin-left: 100px; */
+    /* background-color: pink; */
 }
 
 .each-slide img{
@@ -12,6 +17,42 @@
 .react-slideshow-wrapper.slide{
     height: 80vh;
 } 
+.react-slideshow-container {
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    width: 95%;
+}
+.logo{
+    /* background-color: pink; */
+    /* opacity: 0.8; */
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+.logo-img{
+    /* background-color: brown; */
+    width: 15%;
+    margin-left: 40%;
+    /* margin-top: -20%; */
+    margin-top: -25px;
+}
 
 
+@media only screen and (max-width: 600px){
+    .react-slideshow-container {
+    width: 100vw;
 
+    /* margin-top: -5px; */
+    margin:0;
+  
+    }
+    .logo-img{
+        width: 80%;
+        margin-left: 50px;
+    }
+    
+}

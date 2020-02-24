@@ -28,8 +28,10 @@ class Navbar extends Component {
             this.props.history.push('/synopsis')
         }else if(value === 'merch') {
             this.props.history.push('/merch')
-        }else if(value === 'streaming') {
-            this.props.history.push('/streaming')
+        }else if(value === 'film') {
+            this.props.history.push('/film')
+        }else if(value === 'karakter'){
+            this.props.history.push('/karakter')
         }
     } 
     home(){
@@ -43,33 +45,36 @@ class Navbar extends Component {
             <Fragment>
                 <div className="menu-logo" style={{ position:"absolute"}}>
                     <div className="burgerbar">
-                        <FontAwesomeIcon icon="bars" className="fas fa-3x"  onClick={() => this.openSidebar()}/>
+                        <FontAwesomeIcon icon="bars" className="fas fa-2x text-light"  onClick={() => this.openSidebar()}/>
                     </div>
-					<div className="home">
-                        <FontAwesomeIcon icon="home" className="text-light fas fa-3x"  onClick={() => this.home()}/>
+                    <div>
+                        <FontAwesomeIcon icon="home" className="fas fa-2x rumah text-light"  onClick={() => this.home()}/>
                     </div>
                 </div>
-                <div className="sidebar" ref="close">
-                        <div className="wrapper-sidebar">
-                            <div className="wrapper-nav">
-                                <div className="text-nav"  onClick={() => this.linkPage('about')}>
-                                    <Link to="/about" style={{textDecoration: 'none'}}><p className="text-menu">About</p></Link>
-                                </div>
-                                <div className="text-nav" onClick={() => this.linkPage('synopsis')}>
-                                    <Link to="/synopsis"><p className="text-menu"  >Synopsis</p></Link>
-                                </div>
-                                <div className="text-nav"  onClick={() => this.linkPage('merch')}>
-                                    <Link to="/merch" ><p className="text-menu">Merch</p></Link>
-                                </div>
-                                <div className="text-nav" onClick={() => this.linkPage('streaming')}>
-                                    <Link to="/streaming"  ><p className="text-menu">Streaming</p></Link>
-                                </div>
-                                <div className="p-0 exit d-flex">
-                                    <FontAwesomeIcon icon="times-circle" className="text-light fas fa-2x close" onClick={() => this.closeSidebar()} />
+				
+                    <div className="sidebar" ref="close">
+                            <div className="wrapper-sidebar">
+                                <div className="wrapper-nav">
+                                    <div className="text-nav"  onClick={() => this.linkPage('synopsis')}>
+                                        <Link to="/about" style={{textDecoration: 'none'}}><p className="text-menu">Synopsis</p></Link>
+                                    </div>
+                                    <div className="text-nav" onClick={() => this.linkPage('karakter')}>
+                                        <Link to="/synopsis" className="text-light" ><p className="text-menu">Karakter</p></Link>
+                                    </div>
+                                    <div className="text-nav"  onClick={() => this.linkPage('film')}>
+                                        <Link to="/merch" className="text-light"><p className="text-menu">Film</p></Link>
+                                    </div>
+                                    <div className="text-nav" onClick={() => this.linkPage('merch')}>
+                                        <Link to="/streaming" className="text-light" ><p className="text-menu">Merch</p></Link>
+                                    </div>
+                                    <div className="text-nav" onClick={() => this.linkPage('about')}>
+                                        <Link to="/streaming" className="text-light" ><p className="text-menu">About</p></Link>
+                                    </div>
+                                    <div className="p-0 exit">
+                                        <FontAwesomeIcon icon="times-circle" className="text-light fas fa-2x close" onClick={() => this.closeSidebar()} />
+                                    </div>
                                 </div>
                             </div>
-                            
-                        </div>
                     </div>
                 <div className="sidebar_bg" ref="sidebarBg" onClick={() => this.closeSidebar()}>
 				</div>

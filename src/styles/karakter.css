@@ -1,0 +1,12 @@
+.karakter{
+    width: 700px;
+}
+.img-karakter{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .karakter {
+        width: 100%;
+    } 
+}

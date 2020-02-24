@@ -2,6 +2,7 @@ import React,{Component, Fragment} from 'react';
 import '../styles/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { BrowserRouter as Router, Route, Link,withRouter } from "react-router-dom";
+import Logo from '../images/LOGO/untitled42.png';
 
 class Navbar extends Component {
     openSidebar () {
@@ -28,8 +29,10 @@ class Navbar extends Component {
             this.props.history.push('/synopsis')
         }else if(value === 'merch') {
             this.props.history.push('/merch')
-        }else if(value === 'streaming') {
-            this.props.history.push('/streaming')
+        }else if(value === 'film') {
+            this.props.history.push('/film')
+        }else if(value === 'karakter'){
+            this.props.history.push('/karakter')
         }
     }
     home(){
@@ -41,23 +44,26 @@ class Navbar extends Component {
             <Fragment>
                     <div className="menu-logo" style={{ position:"absolute"}}>
                         <div className="burgerbar">
-                        <FontAwesomeIcon icon="bars" className="fas fa-3x"  onClick={() => this.openSidebar()}/>
+                        <FontAwesomeIcon icon="bars" className="fas fa-2x text-light"  onClick={() => this.openSidebar()}/>
                         </div>
                     </div>
                     <div className="sidebar" ref="close">
                             <div className="wrapper-sidebar">
                                 <div className="wrapper-nav">
-                                    <div className="text-nav"  onClick={() => this.linkPage('about')}>
-                                        <Link to="/about" style={{textDecoration: 'none'}}><p className="text-menu">About</p></Link>
+                                    <div className="text-nav"  onClick={() => this.linkPage('synopsis')}>
+                                        <Link to="/about" style={{textDecoration: 'none'}}><p className="text-menu">Synopsis</p></Link>
                                     </div>
-                                    <div className="text-nav" onClick={() => this.linkPage('synopsis')}>
-                                        <Link to="/synopsis" className="text-light" ><p className="text-menu"  >Synopsis</p></Link>
+                                    <div className="text-nav" onClick={() => this.linkPage('karakter')}>
+                                        <Link to="/synopsis" className="text-light" ><p className="text-menu">Karakter</p></Link>
                                     </div>
-                                    <div className="text-nav"  onClick={() => this.linkPage('merch')}>
-                                        <Link to="/merch" className="text-light"><p className="text-menu">Merch</p></Link>
+                                    <div className="text-nav"  onClick={() => this.linkPage('film')}>
+                                        <Link to="/merch" className="text-light"><p className="text-menu">Film</p></Link>
                                     </div>
-                                    <div className="text-nav" onClick={() => this.linkPage('streaming')}>
-                                        <Link to="/streaming" className="text-light" ><p className="text-menu">Streaming</p></Link>
+                                    <div className="text-nav" onClick={() => this.linkPage('merch')}>
+                                        <Link to="/streaming" className="text-light" ><p className="text-menu">Merch</p></Link>
+                                    </div>
+                                    <div className="text-nav" onClick={() => this.linkPage('about')}>
+                                        <Link to="/streaming" className="text-light" ><p className="text-menu">About</p></Link>
                                     </div>
                                     <div className="p-0 exit">
                                         <FontAwesomeIcon icon="times-circle" className="text-light fas fa-2x close" onClick={() => this.closeSidebar()} />
