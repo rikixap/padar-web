@@ -1,3 +1,8 @@
+.wrapper-merch{
+    background-image: url(../images/bg\ Padar/BG04.png); 
+    background-attachment: fixed;
+    height: 110vh;
+}
 .boxset{
     border: 1px solid white;
     width: 300px;
@@ -5,6 +10,9 @@
     justify-content: center;
     align-items: center;
     margin-right: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .stock{
     margin-bottom: 15px;
@@ -46,14 +54,31 @@
 .slick-side {
     position: relative;
   }
-
+  .Activated_overlay__3ey1P{
+      background-color: transparent !important;
+  }
   
 .Activated_content__2QBG5{
     display: flex;
     justify-content: center;
+    object-fit: contain !important;
+}
+.img-merch{
+    object-fit: contain;
 }
 .img1{
 object-fit: cover;
+}
+.content {
+    border: 5px solid gray;
+    background-color: black;
+}
+/* .content{
+   height: 352px;
+
+} */
+.detail{
+    height:420px;
 }
 @media only screen and (max-width: 600px){
     .keterangan {
@@ -69,6 +94,12 @@ object-fit: cover;
         margin-right:50px ;
         margin-bottom: 40px;
     }
+  
  
 }
 
+@media (min-width: 600px) and (max-width: 1024px) { 
+   .wrapper-merch{
+       margin-bottom: 25px;
+   }
+}

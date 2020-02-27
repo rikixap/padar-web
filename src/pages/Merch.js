@@ -1,8 +1,8 @@
-import React,{Component} from 'react';
+import React,{Component, Fragment} from 'react';
 import Navbar from '../components/Navbar';
 import '../styles/Merch.css';
-import boxset1 from '../images/MERCH/1 .png';
-import boxset2 from '../images/MERCH/2 (3).png'
+import tshirt1 from '../images/MERCH/SHIRT/1.jpg';
+import tshirt2 from '../images/MERCH/SHIRT/2.jpg'
 import Slider from 'react-slick';
 // import { ImageZoom } from 'react-simple-image-zoom';
  
@@ -41,14 +41,14 @@ var settings = {
 class Merch extends Component{
 
     render(){ 
-        return(   
-            <div> 
-            <div>
+        return(
+            <Fragment>
+            <div className="wrapper-merch">
                 <div className="wrapper-header">
                     <Navbar/>
                 </div>
                 <div className="text-light container wrapper-content">
-                    <p className="text-center">Merch</p>
+                    <h2 className="text-center">Merch</h2>
                     <hr className="pembatas"/>
                     <div className="d-flex row content">
                         <div className="boxset">        
@@ -57,35 +57,46 @@ class Merch extends Component{
                                 <Zoom>
                                     <img
                                     alt="that wanaka tree"
-                                    src={boxset1}
+                                    src={tshirt1}
                                     width="200"
                                     style={{top:'40px'}}
                                     className="img-merch"
                                     />
                                 </Zoom>
                             </div>
-                            <div className="img1"><img src={boxset2}/></div>
+                            <div className="img1">
+                                <Zoom>
+                                    <img
+                                    alt="that wanaka tree"
+                                    src={tshirt2}
+                                    width="200"
+                                    style={{top:'40px'}}
+                                    className="img-merch"
+                                    />
+                                </Zoom>
+                            </div>
                         </Slider>   
                         </div>
-                        <div>
-                            <p>Boxset Padar</p>
-                            <p>Rp.200.000</p>                                                     
-                            <label htmlFor="catatan" className="col-form-label">Keterangan :</label>
-                            <div className="keterangan">
-                                <p className="text-left m-3"> 
-                                    ini berisi susu kental FontAwesomeIcon
-                                </p>
-                            </div>
-                            <div className=" btn-shop">
-                                <button type="button" className=" tambah">Pesan</button>
+                        <div className="detail">
+                            <div>
+                                <h3>T-shirt Padar</h3>
+                                <p>Rp.150.000</p>                                                     
+                                <label htmlFor="catatan" className="col-form-label">Keterangan :</label>
+                                <div className="keterangan">
+                                    <p className="text-left m-3">color: black</p>
+                                    <p className="text-left m-3">Size: S,M,XL</p>
+                                </div>
+                                <div className=" btn-shop">
+                                    <button type="button" className=" tambah">Pesan</button>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <Footer/>
-            </div>
-        
+        </Fragment>
         )
     } 
 }

@@ -18,7 +18,7 @@ class Navbar extends Component {
 		let close = this.refs.close
 		open.style.display = 'none'
         close.style.width = '0px'
-        close.style.left = '-300px'
+        close.style.left = '-600px'
         open.style.width = '0px' 
     }
     linkPage (value) {
@@ -32,6 +32,8 @@ class Navbar extends Component {
             this.props.history.push('/film')
         }else if(value === 'karakter'){
             this.props.history.push('/karakter')
+        }else if(value === 'timproduksi'){
+            this.props.history.push('/timproduksi')
         }
     } 
     home(){
@@ -42,12 +44,12 @@ class Navbar extends Component {
 
     render(){
         return(
-            <Fragment>
+            <div className="bungkus-nav">
                 <div className="menu-logo" style={{ position:"absolute"}}>
                     <div className="burgerbar">
                         <FontAwesomeIcon icon="bars" className="fas fa-2x text-light"  onClick={() => this.openSidebar()}/>
                     </div>
-                    <div>
+                    <div className="icon-rumah">
                         <FontAwesomeIcon icon="home" className="fas fa-2x rumah text-light"  onClick={() => this.home()}/>
                     </div>
                 </div>
@@ -70,6 +72,9 @@ class Navbar extends Component {
                                     <div className="text-nav" onClick={() => this.linkPage('about')}>
                                         <Link to="/streaming" className="text-light" ><p className="text-menu">About</p></Link>
                                     </div>
+                                    <div className="text-nav" onClick={() => this.linkPage('timproduksi')}>
+                                        <Link to="/timproduksi" className="text-light" ><p className="text-menu">Tim Produksi</p></Link>
+                                    </div>
                                     <div className="p-0 exit">
                                         <FontAwesomeIcon icon="times-circle" className="text-light fas fa-2x close" onClick={() => this.closeSidebar()} />
                                     </div>
@@ -78,7 +83,7 @@ class Navbar extends Component {
                     </div>
                 <div className="sidebar_bg" ref="sidebarBg" onClick={() => this.closeSidebar()}>
 				</div>
-            </Fragment>
+            </div>
         )
     }
 }

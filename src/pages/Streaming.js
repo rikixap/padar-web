@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React,{Component, Fragment} from 'react';
 import Navbar from '../components/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //import '../styles/Synopsis.css';
@@ -11,19 +11,21 @@ class Streaming extends Component{
    
     render(){
         return(
-            <div>
-                <div className="wrapper-header">
-                    <Navbar/>
-                </div>
-                <div className="text-light container wrapper-content">
-                    <p className="text-center">Streaming</p>
-                    <hr className="pembatas"/>
-                    <Player >
-                        <source src=".http://res.cloudinary.com/damaxkeot/video/upload/v1565057231/kekxrmbmdysbhm7bz34u.mp4" />
-                    </Player>
+            <Fragment>
+                <div className="wrapper-film">
+                    <div className="wrapper-header">
+                        <Navbar/>
+                    </div>
+                    <div className="text-light container wrapper-content">
+                        <h2 className="text-center">Streaming</h2>
+                        <hr className="pembatas"/>
+                        <Player >
+                            <source src=".http://res.cloudinary.com/damaxkeot/video/upload/v1565057231/kekxrmbmdysbhm7bz34u.mp4" />
+                        </Player>
+                    </div>
                 </div>
                 <Footer/>
-            </div>
+            </Fragment>
         )
     }
 }

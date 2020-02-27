@@ -1,7 +1,11 @@
+body{
+    margin: 0;
+}
 .containerSlide {
     display: flex;
     align-self: center;
     background-color: brown;
+    margin-bottom: 88px;
     /* justify-content: center; */
     /* width: 1000px; */
     /* padding-top: 300px; */
@@ -11,16 +15,16 @@
 
 .each-slide img{
     width: 100%;
-    height: 80vh;
+    height: 88vh;
     object-fit: cover;
 }
 .react-slideshow-wrapper.slide{
-    height: 80vh;
+    height: 90vh;
 } 
 .react-slideshow-container {
-    margin-left: 2.5%;
-    margin-top: 2.5%;
-    width: 95%;
+    /* margin-left: 2.5%; */
+    /* margin-top: 2.5%; */
+    width: 100%;
 }
 .logo{
     /* background-color: pink; */
@@ -35,24 +39,50 @@
 
 .logo-img{
     /* background-color: brown; */
-    width: 15%;
-    margin-left: 40%;
+    width: 40%;
+    margin-left: 30%;
     /* margin-top: -20%; */
-    margin-top: -25px;
+    margin-top: -90px;
+}
+
+.padar{
+    position: absolute;
+    z-index: 1;
+    /* margin-top: 200px; */
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.padar img{
+    width: 500px;
+    height: 500px;
 }
 
 
 @media only screen and (max-width: 600px){
     .react-slideshow-container {
     width: 100vw;
-
-    /* margin-top: -5px; */
     margin:0;
   
     }
     .logo-img{
         width: 80%;
         margin-left: 50px;
+        margin-top: -30px;
     }
-    
+    .padar{
+       display: flex;
+       justify-content: center;
+    }
+    .padar img{
+        width: 300px;
+        height: 300px;
+        margin-left: 40px;
+    }
+   
 }
+@media (min-width: 481px) and (max-width: 767px) { 
+    body { 
+        background-color: yellow; 
+    } 
+} 

@@ -1,0 +1,57 @@
+.wrapper-tim{
+    background-image: url(../images//bg\ Padar/123.png);
+    object-fit: contain;
+    height: 310vh;
+    background-attachment: fixed;
+}
+
+.container-team{
+    border: 5px solid gray;
+    background-color: black;
+    /* opacity: 0.8; */
+  
+}
+.fototeam{
+    width: 100px;
+    height: 100px;
+}
+.detail-team{
+    margin-left: 15px;
+    width: 90%;
+    height: 170px;
+}
+
+.wrapper-team{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.frame {
+    margin-bottom: 50px;
+}
+.container-team{
+    justify-content: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px){
+    .container-team{
+        display: flex;
+        flex-direction: column;
+    }
+    .frame{
+        margin-bottom: 85px;
+    }
+    .detail-team{
+        text-align: center;
+        margin-left: 50px;
+    }
+    .container-team{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+  
+}

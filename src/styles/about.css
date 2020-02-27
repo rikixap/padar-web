@@ -1,24 +1,11 @@
-.fototeam{
-    width: 100px;
-    height: 100px;
-}
-.detail-team{
-    margin-left: 15px;
-    width: 90%;
-    height: 170px;
+.wrapper-about{
+    background-image: url(../images/BACKGROUND/BG05.png);
+    background-attachment: fixed;
+    height: 290vh;
+
+
 }
 
-.wrapper-team{
-    width: 90%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.frame {
-    margin-bottom: 50px;
-}
-.container-team{
-    justify-content: center;
-    display: flex;
-}
+
+
+

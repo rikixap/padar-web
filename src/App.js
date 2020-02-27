@@ -12,6 +12,7 @@ import Streaming from './pages/Streaming';
 import Merch from './pages/Merch';
 import About from './pages/About';
 import Karakter from './pages/karakter';
+import TimProduksi from './pages/Timproduksi';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/merch" component={Merch}/>
         <Route path="/about" component={About}/>
         <Route path="/karakter" component={Karakter}/>
+        <Route path="/timproduksi" component={TimProduksi}/>
     </Router>
     </div>
   );
