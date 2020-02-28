@@ -12,7 +12,7 @@ class About extends Component{
                     <div className="wrapper-header">
                         <Navbar/>
                     </div>
-                    <div className="text-light container wrapper-content">
+                    <div className="text-light container wrapper-aboutabout">
                         <h2 className="text-center">About</h2>
                         <hr className="pembatas"/>
                         <p>

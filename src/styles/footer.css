@@ -1,15 +1,16 @@
 @media only screen and (max-width: 600px){
 .footer{
     font-size: 10px;
-   
-}
 }
 
-.media{
-    display: flex;
-    justify-content: center;
-    margin-top: -15px;
 }
+.media{
+        display: flex;
+        justify-content: center;
+        margin-top: -15px;
+
+}
+
 .footer{
     position: fixed;
     background-color:   #333333;

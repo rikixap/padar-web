@@ -26,7 +26,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around; 
     margin-top: 15px;
 }
 .frame {
@@ -46,12 +46,15 @@
         margin-bottom: 85px;
     }
     .detail-team{
-        text-align: center;
+        /* text-align: center; */
         margin-left: 50px;
     }
     .container-team{
         margin-right: -15px;
         margin-left: -15px;
+        display: flex;
+        padding-left: 35px;
+
     }
   
 }

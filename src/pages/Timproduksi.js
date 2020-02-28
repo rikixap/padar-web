@@ -26,7 +26,7 @@ class TimProduksi extends Component {
         return(
         <Fragment>
         <div className="wrapper-tim">
-                <image src={require('../images/BACKGROUND/BG07.png')} style={{zIndex:9}}/>
+               
                 <div className="wrapper-header">
                     <Navbar/>
                 </div>
@@ -43,7 +43,7 @@ class TimProduksi extends Component {
                                         <div className="detail-team">
                                             <h3 className="p-0 m-0">Krisna</h3>
                                             <p className="p-0 m-0">Produser</p>
-                                            <p className="p-0 m-0">Story BoardAnd ConceptArtis</p>
+                                            <p className="p-0 m-0">StoryBoard And ConceptArtis</p>
                                             <p className="p-0 m-0">Envirotment</p>
                                         </div>
                                     </div>
@@ -182,7 +182,7 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                         <h3 className="p-0 m-0">Yayan</h3>
-                                            <p className="p-0 m-0">Animation Team</p>
+                                            <p className="p-0 m-0">AnimationTeam</p>
                                         </div>
                                     </div>
                                     <div className="d-flex frame">

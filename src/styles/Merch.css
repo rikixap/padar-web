@@ -1,7 +1,7 @@
 .wrapper-merch{
-    background-image: url(../images/bg\ Padar/BG04.png); 
+    background-image: url(../images/bg\ Padar/BG01.png); 
     background-attachment: fixed;
-    height: 110vh;
+    height: 300vh;
 }
 .boxset{
     border: 1px solid white;
@@ -9,9 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
-    margin-left: 15px;
-    margin-top: 15px;
+    /* margin-right: 15px;
+    margin-left: 50px; */
+    margin-top: 50px;
     margin-bottom: 15px;
 }
 .stock{
@@ -35,7 +35,7 @@
 }
 
 .keterangan {
-    margin-left:100px;
+    /* margin-left:100px; */
     margin-top: 10px;
     border: 1px solid white;
     background: white;
@@ -72,6 +72,7 @@ object-fit: cover;
 .content {
     border: 5px solid gray;
     background-color: black;
+    
 }
 /* .content{
    height: 352px;
@@ -79,6 +80,12 @@ object-fit: cover;
 } */
 .detail{
     height:420px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.kontentkontent{
+    margin-left: 25px;
+    margin-right: 25px;
 }
 @media only screen and (max-width: 600px){
     .keterangan {
@@ -87,19 +94,67 @@ object-fit: cover;
     .content {
         display: flex;
         align-items: flex-start;
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
     .boxset{
-        margin-left: 50px;
-        margin-right:50px ;
+        /* margin-left: 50px; */
+        /* margin-right:50px ; */
         margin-bottom: 40px;
     }
-  
- 
+    .detail{
+        /* padding-left: 10px; */
+    }
+    .kontentkontent{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+
 }
 
 @media (min-width: 600px) and (max-width: 1024px) { 
    .wrapper-merch{
        margin-bottom: 25px;
    }
+   /* .detail{
+    padding-left: 10px;
+    margin-left: 300px;
+} */
+    
+    /* .keterangan{
+        margin-left: -10px;
+        width: 300px;
+    }  */
+    .kontentkontent{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+    .kontentkontentkontent{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+   
 }
+
+@media  (max-width: 1024px) { 
+    .wrapper-merch{
+        margin-bottom: 25px;
+    }
+    /* .detail{
+     padding-left: 10px;
+     margin-left: 300px;
+ } */
+      /* .boxset{
+         margin-left: 100px;
+     } */
+     /* .keterangan{
+         margin-left: -10px;
+         width: 300px;
+     }  */
+     
+ }

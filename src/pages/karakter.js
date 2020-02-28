@@ -22,7 +22,7 @@ class Karakter extends Component{
                                     <img src={karakter1} className="karakter"/> 
                                 </div>
                                 <div className="col-sm-7 detaildetail">
-                                    <h4 className="text-center">Padar</h4>
+                                    <h4 className="text-center juduljudul">Padar</h4>
                                     <div className="detail-content">
                                         <p>Padar adalah seorang pemuda pemberani dan selalu optimis,
                                         Dia berasal dari desa tepatnya dari daerah pesisir yang  masih terbilang tradisional dan menjujung tinggi unggah unggah atau tata krama
@@ -37,8 +37,8 @@ class Karakter extends Component{
                                 <div className="img-karakter col-5 text-center">
                                     <img src={karakter2} className="karakter"/> 
                                 </div>
-                                <div className="col-sm-7">
-                                    <h4 className="text-center">GRAPPY</h4>
+                                <div className="col-sm-7 detaildetail">
+                                    <h4 className="text-center juduljudul">GRAPPY</h4>
                                     <div className="detail-content">
                                         <p>
                                             GRAPPY adalah seekor Komodo muda yang tangguh, dan sangat setia, tingkahnya kadang lucu dan ceroboh.
@@ -54,8 +54,8 @@ class Karakter extends Component{
                                 <div className="img-karakter col-5 text-center">
                                     <img src={karakter3} className="karakter"/> 
                                 </div>
-                                <div className="col-sm-7">
-                                    <h4 className="text-center">Sugar</h4>
+                                <div className="col-sm-7 detaildetail">
+                                    <h4 className="text-center juduljudul">Sugar</h4>
                                     <div className="detail-content">
                                         <p>
                                             Sugar adalah binatang Sugar Glaider ata seekor Tupai terbang.

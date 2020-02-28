@@ -51,45 +51,50 @@ class Merch extends Component{
                     <h2 className="text-center">Merch</h2>
                     <hr className="pembatas"/>
                     <div className="d-flex row content">
-                        <div className="boxset">        
-                        <Slider {...settings}>
-                            <div className="img1">
-                                <Zoom>
-                                    <img
-                                    alt="that wanaka tree"
-                                    src={tshirt1}
-                                    width="200"
-                                    style={{top:'40px'}}
-                                    className="img-merch"
-                                    />
-                                </Zoom>
+                        <div className="kontentkontent">
+                            <div className="boxset">        
+                            <Slider {...settings}>
+                                <div className="img1">
+                                    <Zoom>
+                                        <img
+                                        alt="that wanaka tree"
+                                        src={tshirt1}
+                                        width="200"
+                                        style={{top:'40px'}}
+                                        className="img-merch"
+                                        />
+                                    </Zoom>
+                                </div>
+                                <div className="img1">
+                                    <Zoom>
+                                        <img
+                                        alt="that wanaka tree"
+                                        src={tshirt2}
+                                        width="200"
+                                        style={{top:'40px'}}
+                                        className="img-merch"
+                                        />
+                                    </Zoom>
+                                </div>
+                            </Slider>   
                             </div>
-                            <div className="img1">
-                                <Zoom>
-                                    <img
-                                    alt="that wanaka tree"
-                                    src={tshirt2}
-                                    width="200"
-                                    style={{top:'40px'}}
-                                    className="img-merch"
-                                    />
-                                </Zoom>
-                            </div>
-                        </Slider>   
                         </div>
-                        <div className="detail">
-                            <div>
-                                <h3>T-shirt Padar</h3>
-                                <p>Rp.150.000</p>                                                     
-                                <label htmlFor="catatan" className="col-form-label">Keterangan :</label>
-                                <div className="keterangan">
-                                    <p className="text-left m-3">color: black</p>
-                                    <p className="text-left m-3">Size: S,M,XL</p>
-                                </div>
-                                <div className=" btn-shop">
-                                    <button type="button" className=" tambah">Pesan</button>
-                                </div>
+                        <div className="kontentkontentkontent">
+                            <div className="detail ">
+                                <div>
+                                    <h3>T-shirt Padar</h3>
+                                    <p>Rp.150.000</p>                                                     
+                                    <label htmlFor="catatan" className="col-form-label">Keterangan :</label>
+                                    <div className="keterangan">
+                                        <p className="text-left m-3 teks-detail">Color: Black</p>
+                                        <p className="text-left m-3">Size: S,M,XL</p>
+                                        <p className="text-left m-3">Bahan: Cotton Combed 30s</p>
+                                    </div>
+                                    <div className=" btn-shop">
+                                        <button type="button" className=" tambah">Pesan</button>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>

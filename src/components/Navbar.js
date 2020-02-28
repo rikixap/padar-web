@@ -58,7 +58,7 @@ class Navbar extends Component {
                             <div className="wrapper-sidebar">
                                 <div className="wrapper-nav">
                                     <div className="text-nav"  onClick={() => this.linkPage('synopsis')}>
-                                        <Link to="/about" style={{textDecoration: 'none'}}><p className="text-menu">Synopsis</p></Link>
+                                        <Link to="/about" style={{textDecoration: 'none'}}><p className="text-menu">Sinopsis</p></Link>
                                     </div>
                                     <div className="text-nav" onClick={() => this.linkPage('karakter')}>
                                         <Link to="/synopsis" className="text-light" ><p className="text-menu">Karakter</p></Link>
@@ -70,7 +70,7 @@ class Navbar extends Component {
                                         <Link to="/streaming" className="text-light" ><p className="text-menu">Merch</p></Link>
                                     </div>
                                     <div className="text-nav" onClick={() => this.linkPage('about')}>
-                                        <Link to="/streaming" className="text-light" ><p className="text-menu">About</p></Link>
+                                        <Link to="/streaming" className="text-light" ><p className="text-menu">Tentang</p></Link>
                                     </div>
                                     <div className="text-nav" onClick={() => this.linkPage('timproduksi')}>
                                         <Link to="/timproduksi" className="text-light" ><p className="text-menu">Tim Produksi</p></Link>

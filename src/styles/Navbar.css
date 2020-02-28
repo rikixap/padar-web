@@ -117,8 +117,8 @@
         }
        .close {
           position: absolute;
-        margin-left: 85%;
-        margin-top: -150%;
+        margin-left: 75%;
+        margin-top: -153%;
         /* display: flex;
         justify-content: start; */
     
@@ -134,6 +134,9 @@
      .rumah{
          margin-top: 45px;
          margin-right: 30px;
+     }
+     .wrapper-sidebar{
+         padding-left: 15px;
      }
      
     }

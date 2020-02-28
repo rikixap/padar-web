@@ -1,10 +1,16 @@
 .wrapper-about{
-    background-image: url(../images/BACKGROUND/BG05.png);
+    background-image: url(../images//bg\ Padar/bgbg1.png);
+    object-fit: contain;
+    height: 310vh;
     background-attachment: fixed;
-    height: 290vh;
-
-
 }
+.wrapper-aboutabout{
+        border: 5px solid gray;
+        background-color: black;
+        /* opacity: 0.8; */
+        margin-top: 200px;
+} 
+
 
 
 
