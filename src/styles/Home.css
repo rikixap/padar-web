@@ -129,11 +129,28 @@ body{
         height: 300px;
         margin-left: 40px;
     }
-
-   
+    .sugar{
+        justify-content: center;
+        margin-left: 80px;
+        margin-top: 160px;
+        width: 100%;
+    }
+    .tekstrailer{
+        color:#f2f2f0;
+       /* font-family: 'Medula One'; */
+       font-size: 40px;
+       margin-bottom: 5px;
+       /* text-shadow: 2px 2px white; */
+       /* font-weight: 999; */
+   }
 }
-@media (min-width: 481px) and (max-width: 767px) { 
+@media (min-width: 481px) and (max-width: 1024px) { 
     body { 
         background-color: yellow; 
-    } 
+    }
+    .logo{
+        margin-top:30px;
+        margin-left: 30px;
+    }
+   
 } 
