@@ -141,6 +141,7 @@ class TimProduksi extends Component {
                                         <p className="p-0 m-0">Director</p>
                                         <p className="p-0 m-0">AnimationTeam</p>
                                         <p className="p-0 m-0">Render</p>
+                                        <p className="p-0 m-0">Layout</p>
                                         </div>
                                     </div>
                                     <div className="d-flex frame">

@@ -9,6 +9,7 @@ import Slider from 'react-slick';
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 // import {
 //     Magnifier,
 //     GlassMagnifier,
@@ -80,21 +81,23 @@ class Merch extends Component{
                             </div>
                         </div>
                         <div className="kontentkontentkontent">
-                            <div className="detail ">
-                                <div>
-                                    <h3>T-shirt Padar</h3>
-                                    <p>Rp.150.000</p>                                                     
-                                    <label htmlFor="catatan" className="col-form-label">Keterangan :</label>
-                                    <div className="keterangan">
-                                        <p className="text-left m-3 teks-detail">Color: Black</p>
-                                        <p className="text-left m-3">Size: S,M,XL</p>
-                                        <p className="text-left m-3">Bahan: Cotton Combed 30s</p>
+                            <div className="detail"> 
+                                    <h3 className="texttext">T-shirt Padar</h3>
+                                    <hr className="batas"/>
+                                    <p className="texttext">Rp.150.000</p>
+                                    <hr className="batas"/>                                                     
+                                    <label htmlFor="catatan" className="texttext">Keterangan :</label>
+                                    <div className="col-sm-10">
+                                        <div className="keterangan">
+                                            <p className="text-left m-3 texttext">Exclusive Padar t-shirt</p>
+                                            <p className="text-left m-3 texttext">- Print On Gildan Hammer (Black)</p>
+                                            <p className="text-left m-3 texttext">- Embroidered Purple Tangerine Sleeve</p>
+                                            <p className="text-left m-3 texttext">- 100% Cotton</p>
+                                        </div>
                                     </div>
-                                    <div className=" btn-shop">
-                                        <button type="button" className=" tambah">Pesan</button>
-                                    </div>
-
-                                </div>
+                                    <div className="btn-shop">
+                                        <button type="button" className="tambah"><Link to="https://wa.wizard.id/256ba2t" style={{color:'white'}}>PESAN</Link></button>
+                                    </div>             
                             </div>
                         </div>
                     </div>

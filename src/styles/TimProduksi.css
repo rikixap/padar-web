@@ -8,6 +8,10 @@
 .container-team{
     border: 5px solid gray;
     background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     /* opacity: 0.8; */
   
 }
@@ -22,19 +26,27 @@
 }
 
 .wrapper-team{
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around; 
+    /* justify-content: space-around;  */
+
+    justify-content: center;
     margin-top: 15px;
 }
 .frame {
     margin-bottom: 50px;
+    /* width: 80%; */
+    align-self: center;
+    display: flex;
+    justify-content: center;
 }
 .container-team{
-    justify-content: center;
-    display: flex;
+    /* justify-content: center;
+    display: flex; */
+ 
+
 }
 
 @media only screen and (max-width: 600px){
@@ -55,6 +67,12 @@
         display: flex;
         padding-left: 35px;
 
+    }
+    .wrapper-tim{
+        background-image: url(../images//bg\ Padar/123.png);
+        object-fit: contain;
+        height: 870vh;
+        background-attachment: fixed;
     }
   
 }

@@ -5,10 +5,10 @@
 }
 .content-karakter{
     border:5px solid gray;
+    border-radius: 15px;
     background-color: black;
     margin-top: 10px;
     opacity: 0.9;
-    font-family: 'Indie Flower';
     font-size: 20px;
     padding-right: 10px;
     line-height: 200%;
@@ -42,9 +42,6 @@
     .img-karakter {
       margin-left: 80px;
     }
-    .img-karakter img{
-    
-    }
      .content-karakter{
         margin-left: -15px;
         margin-right: -15px;
@@ -52,7 +49,7 @@
     .wrapper-karakter{
         background-image: url(../images/bg\ Padar/BG03.png);
         background-attachment: fixed;
-        height: 380vh;
+        height: 440vh;
     }
 }
 
