@@ -38,7 +38,7 @@ class Karakter extends Component{
                                     <img src={karakter2} className="karakter"/> 
                                 </div>
                                 <div className="col-sm-7 detaildetail">
-                                    <h4 className="text-center juduljudul">GRAPPY</h4>
+                                    <h4 className="text-center juduljudul">Grappy</h4>
                                     <div className="detail-content">
                                         <p>
                                             GRAPPY adalah seekor Komodo muda yang tangguh, dan sangat setia, tingkahnya kadang lucu dan ceroboh.
@@ -60,7 +60,7 @@ class Karakter extends Component{
                                         <p>
                                             Sugar adalah binatang Sugar Glaider ata seekor Tupai terbang.
                                             Dia pemikir yang cerdik,selalu memiliki ide yang jenius walau terkadang tidak dihiraukan oleh kedua sahabatnya
-                                            yaitu padar dan Greppy. walaupun dia pemikir yang ulug
+                                            yaitu padar dan Greppy. walaupun dia pemikir yang ulung
                                         </p>
                                     </div>
                                 </div>

@@ -1,9 +1,21 @@
-.video-react-video{
+.video-react.video-react-fluid{
     border: 5px solid gray;
+    border-radius: 15px;
 }
 .wrapper-film{
     background-image: url(../images//bg\ Padar/padarpadar.png); 
     background-attachment: fixed;
     height: 130vh;
    
+}
+#player{
+    border:1px solid pink;
+}
+
+.tes{
+    border: 5px solid gray;
+    border-radius: 15px;
+    width: 100%;
+    /* height: 100%; */
+    height: 550px;
 }
