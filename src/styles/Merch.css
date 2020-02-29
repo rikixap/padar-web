@@ -72,7 +72,7 @@ object-fit: cover;
 }
 .content {
     border: 5px solid gray;
-    background-color: whitesmoke;
+    background-color: black;
     border-radius: 15px;
     
 }
@@ -89,9 +89,7 @@ object-fit: cover;
     margin-left: 25px;
     margin-right: 25px;
 }
-.texttext{
-    color: gray;
-}
+
 .tambah{
     background-color: gray;
     border: none;
@@ -132,7 +130,7 @@ object-fit: cover;
         margin: 0;
     }
     .tambah{
-        background-color: gray;
+     
         border: none;
         border-radius: 15px;
         color: white;
@@ -142,14 +140,12 @@ object-fit: cover;
        
     }
     .content {
-        border: 5px solid gray;
-        background-color: whitesmoke;
+
         border-radius: 15px;
         height: 950px;
     }
     .wrapper-merch{
-    background-image: url(../images/bg\ Padar/BG01.png); 
-    background-attachment: fixed;
+ 
     height: 1200px;
 }
 .detail{
@@ -190,20 +186,11 @@ object-fit: cover;
    
 }
 
-@media  (max-width: 1024px) { 
+@media (min-width: 1024px) and (max-width: 1366px) { 
     .wrapper-merch{
-        margin-bottom: 25px;
+        background-image: url(../images/bg\ Padar/BG01.png); 
+        background-attachment: fixed;
+        height: 1300px;
     }
-    /* .detail{
-     padding-left: 10px;
-     margin-left: 300px;
- } */
-      /* .boxset{
-         margin-left: 100px;
-     } */
-     /* .keterangan{
-         margin-left: -10px;
-         width: 300px;
-     }  */
-     
+    
  }

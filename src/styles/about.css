@@ -1,7 +1,7 @@
 .wrapper-about{
     background-image: url(../images//bg\ Padar/bgbg1.png);
     object-fit: contain;
-    height: 310vh;
+    height: 1600px;
     background-attachment: fixed;
 }
 .wrapper-aboutabout{
@@ -18,12 +18,17 @@
     margin-top: 150px;
     margin-left: 150px;
 }
+.content-synopsis{
+    font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 @media only screen and (max-width: 600px){
     .wrapper-about{
         background-image: url(../images//bg\ Padar/bgbg1.png);
         object-fit: contain;
-        height: 900vh;
+        height: 3000px;
         background-attachment: fixed;
     }
     .tabel2{

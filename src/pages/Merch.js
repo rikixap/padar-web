@@ -10,14 +10,7 @@ import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
-// import {
-//     Magnifier,
-//     GlassMagnifier,
-//     SideBySideMagnifier,
-//     PictureInPictureMagnifier,
-//     MOUSE_ACTIVATION,
-//     TOUCH_ACTIVATION
-//   } from "react-image-magnifiers";
+
 
 var settings = {
     dots: true,
@@ -26,19 +19,7 @@ var settings = {
     slidesToShow: 1,
     slideToScroll: 3
 };
-// const imageProps = {
-//     smallImage: {
-//       alt: 'Phasellus laoreet',
-//       isFluidWidth: true,
-//       src: boxset1
-//     },
-//     largeImage: {
-//       src: boxset1,
-//       width: 1200,
-//       height: 1800
-//     },
-//     enlargedImageContainerStyle: { background: '#fff', zIndex: 9 }
-//   };
+
 class Merch extends Component{
 
     render(){ 
@@ -87,7 +68,7 @@ class Merch extends Component{
                                     <p className="texttext">Rp.150.000</p>
                                     <hr className="batas"/>                                                     
                                     <label htmlFor="catatan" className="texttext">Keterangan :</label>
-                                    <div className="col-sm-10">
+                                    <div className="">
                                         <div className="keterangan">
                                             <p className="text-left m-3 texttext">Exclusive Padar t-shirt</p>
                                             <p className="text-left m-3 texttext">- Print On Gildan Hammer (Black)</p>
@@ -96,7 +77,7 @@ class Merch extends Component{
                                         </div>
                                     </div>
                                     <div className="btn-shop">
-                                        <button type="button" className="tambah"><Link to="https://wa.wizard.id/256ba2t" style={{color:'white'}}>PESAN</Link></button>
+                                        <button type="button" className="tambah"><Link to="https://api.whatsapp.com/send?phone=6281933357030&text=Saya%20tertarik%20untuk%20beli%20Padar" style={{color:'white'}}>PESAN</Link></button>
                                     </div>             
                             </div>
                         </div>

@@ -8,7 +8,7 @@
         display: flex;
         justify-content: center;
         margin-top: -15px;
-
+        font-size: 8px;
 }
 
 .footer{
@@ -16,8 +16,12 @@
     background-color:   #333333;
     bottom: 0;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-size: 12px;
 }
+.wrapper-footer{
+    font-size: 10px;
+}
+
 

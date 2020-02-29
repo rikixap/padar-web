@@ -1,7 +1,7 @@
 .wrapper-karakter{
     background-image: url(../images/bg\ Padar/BG03.png);
     background-attachment: fixed;
-    height: 180vh;
+    height: 1500px;
 }
 .content-karakter{
     border:5px solid gray;
@@ -9,7 +9,7 @@
     background-color: black;
     margin-top: 10px;
     opacity: 0.9;
-    font-size: 20px;
+    font-size: 14px;
     padding-right: 10px;
     line-height: 200%;
 } 
@@ -23,7 +23,7 @@
     margin-top: 20px;
 }
 .juduljudul{
-    font-size: 40px;
+    font-size: 20px;
 }
 .kontent-karakter{
     display: flex;
@@ -49,14 +49,22 @@
     .wrapper-karakter{
         background-image: url(../images/bg\ Padar/BG03.png);
         background-attachment: fixed;
-        height: 440vh;
+        height: 1800px;
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) { 
+@media (min-width: 600px) and (max-width: 1024px) { 
      .detaildetail{
-         margin-left: 90px;
+         /* margin-left: 90px;
          margin-right: 50px;
-         text-align: left;
+         text-align: left; */
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
      }
+     .wrapper-karakter{
+        background-image: url(../images/bg\ Padar/BG03.png);
+        background-attachment: fixed;
+        height: 1400px;
+    }
 }

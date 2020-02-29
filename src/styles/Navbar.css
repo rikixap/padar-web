@@ -118,7 +118,7 @@ ul li {
    .close {
       position: absolute;
     margin-left: 75%;
-    margin-top: -153%;
+    margin-top: -570px;
     /* display: flex;
     justify-content: start; */
 
@@ -145,8 +145,8 @@ ul li {
     
     .close {
         position: absolute;
-        margin-left: 85%;
-        margin-top: -130%;
+        margin-left: 500px;
+        margin-top: -570px;
     }
     /* .icon {
         font-size: 5px;
@@ -157,11 +157,10 @@ ul li {
     } */
 
 }
-@media (min-width: 481px) and (max-width: 1024px) { 
-  
+@media (min-width: 411px) and (max-width: 823) { 
     .close {
         position: absolute;
-        margin-left: 80%;
-        margin-top: -130%;
+      
+        margin-top: -100px;
     }
 }  

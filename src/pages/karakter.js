@@ -41,9 +41,9 @@ class Karakter extends Component{
                                     <h4 className="text-center juduljudul">Grappy</h4>
                                     <div className="detail-content">
                                         <p>
-                                            GRAPPY adalah seekor Komodo muda yang tangguh, dan sangat setia, tingkahnya kadang lucu dan ceroboh.
+                                            Grappy adalah seekor Komodo muda yang tangguh, dan sangat setia, tingkahnya kadang lucu dan ceroboh.
                                             Dia memiliki sahabat bernama Padar, mereka bertemu ketika pada menolongnya dari perangkap Komodo. Greppy memiliki panjang tubuh kurang lebih 4m.
-                                            Dia pemakan daging,namun dia juga sangat suka buah berwarna ungu terutama buah Plumpie Plums, itu mengapa dia disebut Greppy.
+                                            Dia pemakan daging,namun dia juga sangat suka buah berwarna ungu terutama buah Plumpie Plums, itu mengapa dia disebut Grappy.
                                         </p>
                                     </div>
                                 </div>
@@ -60,7 +60,7 @@ class Karakter extends Component{
                                         <p>
                                             Sugar adalah binatang Sugar Glaider ata seekor Tupai terbang.
                                             Dia pemikir yang cerdik,selalu memiliki ide yang jenius walau terkadang tidak dihiraukan oleh kedua sahabatnya
-                                            yaitu padar dan Greppy. walaupun dia pemikir yang ulung
+                                            yaitu padar dan Greppy. walaupun dia pemikir yang ulung.
                                         </p>
                                     </div>
                                 </div>
