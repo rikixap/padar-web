@@ -151,6 +151,11 @@ object-fit: cover;
 .detail{
     margin: 0;
 }
+.wrapper-merch{
+    background-image: url(../images/bg\ Padar/BG01.png); 
+    background-attachment: fixed;
+    height: 1300px;
+}
 }
 
 @media (min-width: 600px) and (max-width: 1024px) { 
