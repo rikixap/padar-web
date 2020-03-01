@@ -15,8 +15,8 @@ class Synopsis extends Component{
                 <div className="text-light container  wrapper-content">
                     <h2 className="text-center judul">Sinopsis</h2>
                     <hr className="pembatas"/>
-                    <div className="content-synopsis text-center">
-                        <p className="juduljudul">Padar</p>
+                    <div className="content-synopsis">
+                        <p className="text-center">Padar</p>
                         <p>  
                             Pada suatu pagi di sebuah Pulau yang terik dan gersang, terdapat tiga sekawan yang sedang berjalan di tengah padang rumput yang menguning karena sebuah kekeringan hebat. Mereka mencari
                             buah-buahan yang masih dapat bertahan dalam kondisi gersang tersebut, hanya sekedar untuk
