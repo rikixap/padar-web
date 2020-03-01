@@ -34,7 +34,7 @@ class Karakter extends Component{
                         </div>
                         <div className="content-karakter">
                             <div className="d-flex row  padarpadar">
-                                <div className="img-karakter col-5 text-center">
+                                <div className="img-karakter grappy22 col-5 text-center">
                                     <img src={karakter2} className="karakter"/> 
                                 </div>
                                 <div className="col-sm-7 detaildetail">

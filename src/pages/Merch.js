@@ -76,8 +76,9 @@ class Merch extends Component{
                                             <p className="text-left m-3 texttext">- 100% Cotton</p>
                                         </div>
                                     </div>
+                                   
                                     <div className="btn-shop">
-                                        <button type="button" className="tambah"><Link to="https://api.whatsapp.com/send?phone=6281933357030&text=Saya%20tertarik%20untuk%20beli%20Padar" style={{color:'white'}}>PESAN</Link></button>
+                                        <button type="button" className="tambah"><a target="blank" href="https://api.whatsapp.com/send?phone=6281933357030&text=Saya%20tertarik%20untuk%20beli%20Padar" className="text-light">Pesan</a></button>
                                     </div>             
                             </div>
                         </div>

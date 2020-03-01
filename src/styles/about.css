@@ -14,21 +14,22 @@
     margin-bottom: 10px;
 }
 
-.tabel2{
-    margin-top: 150px;
-    margin-left: 150px;
-}
 .content-synopsis{
     font-size: 14px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.pembatas2{
+    border: 1px solid whitesmoke;
+    width: 80%;
+
 }
 
 @media only screen and (max-width: 600px){
     .wrapper-about{
         background-image: url(../images//bg\ Padar/bgbg1.png);
         object-fit: contain;
-        height: 3000px;
+        height: 2600px;
         background-attachment: fixed;
     }
     .tabel2{
@@ -37,6 +38,16 @@
     }
    
 }
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .wrapper-about{
+        background-image: url(../images//bg\ Padar/bgbg1.png);
+        object-fit: contain;
+        height: 1700px;
+        background-attachment: fixed;
+    }
+    
+} 
 
 
 

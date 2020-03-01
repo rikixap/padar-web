@@ -74,7 +74,9 @@ object-fit: cover;
     border: 5px solid gray;
     background-color: black;
     border-radius: 15px;
-    
+    height: 500px;
+    display: flex;
+    justify-content: center;
 }
 /* .content{
    height: 352px;
@@ -82,13 +84,14 @@ object-fit: cover;
 } */
 .detail{
     height:420px;
-    margin-top: 85px;
+    margin-top: 50px;
     margin-left: 50px;
 }
 .kontentkontent{
     margin-left: 25px;
     margin-right: 25px;
 }
+
 
 .tambah{
     background-color: gray;
@@ -104,6 +107,9 @@ object-fit: cover;
     background-color: gray;
     border-radius: 15px;
 }
+/* .kontentkontentkontent{
+    margin-bottom: 100px;
+} */
 
 @media only screen and (max-width: 600px){
     .keterangan {
@@ -196,6 +202,18 @@ object-fit: cover;
         background-image: url(../images/bg\ Padar/BG01.png); 
         background-attachment: fixed;
         height: 1300px;
+    }
+    
+ }
+
+ @media (min-width: 768px) and (max-width: 1024px) { 
+    .wrapper-merch{
+        background-image: url(../images/bg\ Padar/BG01.png); 
+        background-attachment: fixed;
+        height: 1300px;
+    }
+    .content{
+        height: 900px;
     }
     
  }

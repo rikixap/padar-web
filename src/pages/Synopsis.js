@@ -13,7 +13,7 @@ class Synopsis extends Component{
                     <Navbar/>
                 </div>
                 <div className="text-light container  wrapper-content">
-                    <h2 className="text-center judul">Synopsis</h2>
+                    <h2 className="text-center judul">Sinopsis</h2>
                     <hr className="pembatas"/>
                     <div className="content-synopsis text-center">
                         <p className="juduljudul">Padar</p>
@@ -22,7 +22,7 @@ class Synopsis extends Component{
                             buah-buahan yang masih dapat bertahan dalam kondisi gersang tersebut, hanya sekedar untuk
                             menghilangkan rasa dahaga mereka.</p>
                         <p>Tiga sekawan itu adalah Padar, Sugar dan Grappy. Padar merupakan seorang pemuda yang
-                            tangguh, di temani dengan seekor tupai terbanga bernama Sugar dan satu ekor komodo bernama
+                            tangguh, di temani dengan seekor tupai terbang bernama Sugar dan satu ekor komodo bernama
                             Grappy. Mereka tinggal di sebuah pulau yang pada jaman dahulu di pulau tersebut terdapat ekosistem
                             alam yang seimbang, dimana keserasian kehidupan manusia dengan alam sekitar terjaga dengan baik. Di
                             pulau tersebut terdapat banyak binatang buas yang memiliki racun sangat mematikan yaitu Komodo,

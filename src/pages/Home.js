@@ -25,7 +25,7 @@ const proprieties = {
 
 const Home = () => {
     return (
-        <div>
+        <div className="wrappper-home">
             <div className="countainerSlide">
                     <Sidebar />  
                         <div className="logo">
@@ -66,7 +66,7 @@ const Home = () => {
                                     <p className="tekstrailer">Trailer !!!</p> 
                                 {/* </div> */}
                                 {/* <div className="padar-trailer"> */}
-                                    <Link className="btn-trailer text-center">WATCH NOW</Link>
+                                    <Link to="/film" className="btn-trailer text-center">WATCH NOW</Link>
                                 {/* </div> */}
                             </div>
                             <div>

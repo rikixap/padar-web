@@ -1,7 +1,7 @@
 .wrapper-synopsis{
     background-image: url(../images/bg\ Padar/BG02.png);
     background-attachment: fixed;
-  
+    height: 1000px;
 }
 .wrapper-header{
     display: flex;
@@ -27,6 +27,7 @@
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
+    text-align: justify;
     /* font-family: 'Patrick Hand'; */
 }
 .juduljudul{
@@ -42,19 +43,16 @@
        margin-right: -15px;
    }
    .wrapper-synopsis{
-    background-image: url(../images/BACKGROUND/BG05.png);
-    background-attachment: fixed;
-    height: 2900px;
+    height: 1600px;
 }
  
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) and (max-width: 1024px) { 
     .wrapper-synopsis{
-        background-image: url(../images/BACKGROUND/BG05.png);
+        background-image: url(../images/bg\ Padar/BG02.png);
         background-attachment: fixed;
-        height: 160vh;
-       
+        height: 1300px;
     }
-
-} 
+    
+}
