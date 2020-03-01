@@ -197,7 +197,7 @@ class TimProduksi extends Component {
                                             <img src={team13} className="fototeam"/>
                                         </div>
                                         <div className="detail-team">
-                                            <h5 className="p-0 m-0">egha</h5>
+                                            <h5 className="p-0 m-0">Egha</h5>
                                             <p className="p-0 m-0">Envirotment</p>
                                             <p className="p-0 m-0">SFX</p>
                                         </div>
