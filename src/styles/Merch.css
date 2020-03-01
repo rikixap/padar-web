@@ -1,7 +1,7 @@
 .wrapper-merch{
     background-image: url(../images/bg\ Padar/BG01.png); 
     background-attachment: fixed;
-    height: 1000px;
+    height: 1500px;
 }
 .boxset{
     border: 3px solid gray;
@@ -110,6 +110,12 @@ object-fit: cover;
 /* .kontentkontentkontent{
     margin-bottom: 100px;
 } */
+.boxsetboxset{
+    margin-top: 25px;
+}
+.batas11{
+    background-color: gray;
+}
 
 @media only screen and (max-width: 600px){
     .keterangan {
@@ -160,7 +166,7 @@ object-fit: cover;
 .wrapper-merch{
     background-image: url(../images/bg\ Padar/BG01.png); 
     background-attachment: fixed;
-    height: 1300px;
+    height: 2400px;
 }
 }
 
@@ -210,7 +216,7 @@ object-fit: cover;
     .wrapper-merch{
         background-image: url(../images/bg\ Padar/BG01.png); 
         background-attachment: fixed;
-        height: 1300px;
+        height: 3000px;
     }
     .content{
         height: 900px;
