@@ -1,7 +1,7 @@
 .wrapper-synopsis{
     background-image: url(../images/bg\ Padar/BG02.png);
     background-attachment: fixed;
-    height: 1000px;
+    height: 1100px;
 }
 
 .wrapper-header{
@@ -55,6 +55,11 @@
    }
    .wrapper-synopsis{
     height: 1600px;
+}
+.wrapper-synopsis{
+    background-image: url(../images/bg\ Padar/BG02.png);
+    background-attachment: fixed;
+    height: 1800px;
 }
  
 }
