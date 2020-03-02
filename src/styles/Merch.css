@@ -1,17 +1,19 @@
 .wrapper-merch{
     background-image: url(../images/bg\ Padar/BG01.png); 
     background-attachment: fixed;
-    height: 300vh;
+    height: 1500px;
+    margin-top: -130px;
 }
 .boxset{
-    border: 1px solid white;
+    border: 3px solid gray;
+    /* border-radius: 1px; */
     width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     /* margin-right: 15px;
     margin-left: 50px; */
-    margin-top: 50px;
+    margin-top: 135px;
     margin-bottom: 15px;
 }
 .stock{
@@ -37,10 +39,10 @@
 .keterangan {
     /* margin-left:100px; */
     margin-top: 10px;
-    border: 1px solid white;
+    border: 3px solid gray;
     background: white;
     color: #000;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 500px;
 }
 .slick-slider {
@@ -72,24 +74,52 @@ object-fit: cover;
 .content {
     border: 5px solid gray;
     background-color: black;
-    
+    border-radius: 15px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
 }
 /* .content{
    height: 352px;
-
 } */
 .detail{
     height:420px;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-left: 50px;
 }
 .kontentkontent{
     margin-left: 25px;
     margin-right: 25px;
 }
+
+
+.tambah{
+    background-color: gray;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 20%;
+    padding-top:5px;
+    padding-bottom: 5px;
+   
+}
+.slick-arrow {
+    background-color: gray;
+    border-radius: 15px;
+}
+/* .kontentkontentkontent{
+    margin-bottom: 100px;
+} */
+.boxsetboxset{
+    margin-top: 25px;
+}
+.batas11{
+    background-color: gray;
+}
+
 @media only screen and (max-width: 600px){
     .keterangan {
-        width: 208px;
+        width: 100%;
     }
     .content {
         display: flex;
@@ -103,6 +133,7 @@ object-fit: cover;
     }
     .detail{
         /* padding-left: 10px; */
+        padding: 25px;
     }
     .kontentkontent{
         display: flex;
@@ -110,51 +141,100 @@ object-fit: cover;
         width: 100%;
         margin: 0;
     }
+    .tambah{
+     
+        border: none;
+        border-radius: 15px;
+        color: white;
+        width: 50%;
+        padding-top:5px;
+        padding-bottom: 5px;
+       
+    }
+    .content {
 
+        border-radius: 15px;
+        height: 950px;
+    }
+ 
+.detail{
+    margin: 0;
+}
+.wrapper-merch{
+    background-image: url(../images/bg\ Padar/BG01.png); 
+    background-attachment: fixed;
+    height: 2600px;
+}
 }
 
 @media (min-width: 600px) and (max-width: 1024px) { 
    .wrapper-merch{
        margin-bottom: 25px;
    }
-   /* .detail{
-    padding-left: 10px;
-    margin-left: 300px;
-} */
-    
-    /* .keterangan{
-        margin-left: -10px;
-        width: 300px;
-    }  */
-    .kontentkontent{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin: 0;
-    }
+   .keterangan {
+    /* margin-left:100px; */
+    margin-top: 10px;
+    border: 3px solid gray;
+    background: white;
+    color: #000;
+    border-radius: 15px;
+    width: 347px;
+}
     .kontentkontentkontent{
         display: flex;
         justify-content: center;
-        width: 100%;
-        margin: 0;
+         width: 100%;
+       
     }
+    .kontentkontent{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper-merch{
+        background-image: url(../images/bg\ Padar/BG01.png); 
+        background-attachment: fixed;
+        height: 1220px;
+    }
+  
    
 }
 
-@media  (max-width: 1024px) { 
+@media (min-width: 1024px) and (max-width: 1366px) { 
     .wrapper-merch{
-        margin-bottom: 25px;
+        background-image: url(../images/bg\ Padar/BG01.png); 
+        background-attachment: fixed;
+        height: 1300px;
     }
-    /* .detail{
-     padding-left: 10px;
-     margin-left: 300px;
- } */
-      /* .boxset{
-         margin-left: 100px;
-     } */
-     /* .keterangan{
-         margin-left: -10px;
-         width: 300px;
-     }  */
-     
+    
+ }
+
+ @media (min-width: 768px) and (max-width: 1024px) { 
+    .wrapper-merch{
+        background-image: url(../images/bg\ Padar/BG01.png); 
+        background-attachment: fixed;
+        height: 3000px;
+    }
+    .content{
+        height: 900px;
+    }
+    
+ }
+
+ @media (min-width: 1024px) and (max-width: 1366px) { 
+    .wrapper-merch{
+        background-image: url(../images/bg\ Padar/BG01.png); 
+        background-attachment: fixed;
+        height: 1300px;
+    }
+    
+ }
+
+ @media (min-width: 1024px) and (max-width: 1366px) { 
+    .wrapper-merch{
+        background-image: url(../images/bg\ Padar/BG01.png); 
+        background-attachment: fixed;
+        height: 1600px;
+    }
+    
  }

@@ -1,21 +1,33 @@
 @media only screen and (max-width: 600px){
-.footer{
-    font-size: 10px;
-}
-
-}
-.media{
-        display: flex;
-        justify-content: center;
-        margin-top: -15px;
-
-}
-
-.footer{
-    position: fixed;
-    background-color:   #333333;
-    bottom: 0;
-    width: 100%;
-   padding-top: 15px;
-   padding-bottom: 10px;
-}
+    .footer{
+        font-size: 10px;
+    }
+    /* .love{
+        width: 50px;
+    } */
+    
+    }
+    .media{
+            display: flex;
+            justify-content: center;
+            margin-top: -15px;
+            font-size: 8px;
+    }
+    
+    .footer{
+        position: fixed;
+        background-color:   #333333;
+        /* background-color: yellow; */
+        bottom: 0;
+        width: 100%;
+        /* padding-top: 10px; */
+        padding-bottom: 15px;
+        font-size: 12px;
+       
+    }
+    .wrapper-footer{
+        font-size: 10px;
+    }
+    .love{
+        width: 10px;
+    }

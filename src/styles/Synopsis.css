@@ -1,7 +1,8 @@
 .wrapper-synopsis{
     background-image: url(../images/bg\ Padar/BG02.png);
     background-attachment: fixed;
-    height: 130vh;
+    /* height: 100px; */
+    margin-top: -130px;
 }
 .wrapper-header{
     display: flex;
@@ -14,45 +15,79 @@
     /* padding-right: 50px; */
 }
 .wrapper-content{
-    margin-top: 200px;
+    
     /* font-family: 'Indie Flower';
     font-size: 20px; */
+    padding-top: 150px;
     
 }
 .content-synopsis{
-    border:10px solid gray; 
+    border:10px solid gray;
+    border-radius: 15px; 
     background: black;
     opacity: 0.7;
-    padding-left: 10px;
     padding-right: 10px;
-    font-family: 'Indie Flower';
+    padding-left: 10px;
     font-size: 20px;
     /* font-family: 'Patrick Hand'; */
 }
-.juduljudul{
+/* .juduljudul{
     font-size: 40px;
-}
+} */
+
 @media only screen and (max-width: 600px){
     .wrapper-content{
-        margin-top: 130px; 
+        margin-top: 130px;
+     
     }
    .content-synopsis{
        margin-left: -15px;
        margin-right: -15px;
+       padding-left: 10px;
+       padding-right: 5px;
    }
    .wrapper-synopsis{
     background-image: url(../images/BACKGROUND/BG05.png);
     background-attachment: fixed;
-    height: 400vh;
+    /* padding-bottom: 100px; */
+    height: 1900px;
 }
- .wrapper-synopsis{
-        height: 340vh;
-    }
+.wrapper-content{
+    
+    /* font-family: 'Indie Flower';
+    font-size: 20px; */
+    padding-top: 50px;
+    
+}
+ 
 }
 
-@media (min-width: 411px) and (max-width: 600px) { 
-    /* .wrapper-synopsis{
-        height: 100%;
-    } */
+@media (min-width: 768px) { 
+    .wrapper-synopsis{
+        background-image: url(../images/BACKGROUND/BG05.png);
+        background-attachment: fixed;
+        height: 160vh;
+       
+    }
 
 } 
+
+@media (min-width: 414px) and (max-width: 736px) { 
+    .wrapper-synopsis{
+        background-image: url(../images/bg\ Padar/BG02.png);
+        background-attachment: fixed;
+        height: 1500px;
+        margin-top: -130px;
+    }
+   
+}
+
+@media (min-width: 600px) and (max-width: 800px) { 
+    .wrapper-synopsis{
+        background-image: url(../images/bg\ Padar/BG02.png);
+        background-attachment: fixed;
+        height: 1300px;
+        margin-top: -130px;
+    }
+   
+}

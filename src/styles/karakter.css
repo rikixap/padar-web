@@ -1,35 +1,44 @@
 .wrapper-karakter{
     background-image: url(../images/bg\ Padar/BG03.png);
     background-attachment: fixed;
-    height: 180vh;
+    height: 1600px;
+    margin-top: -130px;
 }
 .content-karakter{
     border:5px solid gray;
+    border-radius: 15px;
     background-color: black;
     margin-top: 10px;
-    opacity: 0.9;
-    font-family: 'Indie Flower';
-    font-size: 20px;
+    opacity: 0.7;
+    font-size: 14px;
     padding-right: 10px;
     line-height: 200%;
+    text-align: justify;
 } 
 .karakter{
     width: 300px;
 }
-.img-karakter{
-    margin-bottom: 20px;
-}
+
 .detaildetail{
-    margin-top: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
 }
 .juduljudul{
-    font-size: 40px;
+    font-size: 20px;
 }
 .kontent-karakter{
     display: flex;
     flex-direction: row;
 }
-@media only screen and (max-width: 600px){
+.grappy22{
+    margin-top: 40px;
+}
+/* .detail-content{
+    padding-right: 15px;
+} */
+
+@media only screen and (max-width: 640px){
     .karakter {
         width: 150%;
     }
@@ -37,13 +46,10 @@
         flex-direction: column;
         padding-left: 10px;
         padding-right: 10px;
-        text-align: center;
+        text-align: justify;
     }
     .img-karakter {
       margin-left: 80px;
-    }
-    .img-karakter img{
-    
     }
      .content-karakter{
         margin-left: -15px;
@@ -52,14 +58,39 @@
     .wrapper-karakter{
         background-image: url(../images/bg\ Padar/BG03.png);
         background-attachment: fixed;
-        height: 380vh;
+        height: 2500px;
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) { 
+@media (min-width: 768px) and (max-width: 1024px) { 
      .detaildetail{
-         margin-left: 90px;
+         /* margin-left: 90px;
          margin-right: 50px;
-         text-align: left;
+         text-align: left; */
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
      }
+     .wrapper-karakter{
+        background-image: url(../images/bg\ Padar/BG03.png);
+        background-attachment: fixed;
+        height: 1500px;
+    }
+}
+@media (min-width: 414px) and (max-width: 736px) { 
+    .wrapper-karakter{
+        background-image: url(../images/bg\ Padar/BG03.png);
+        background-attachment: fixed;
+        height: 2300px;
+    }
+   
+}
+
+@media (min-width: 600px) and (max-width: 800px) { 
+    .wrapper-karakter{
+        background-image: url(../images/bg\ Padar/BG03.png);
+        background-attachment: fixed;
+        height: 1800px;
+    }
+   
 }

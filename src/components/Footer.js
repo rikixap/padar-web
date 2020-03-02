@@ -1,15 +1,17 @@
 import React,{Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/footer.css'
+import love from '../images/LOGO/love.png'
+
 class Footer extends Component{
     render(){ 
         return(   
             <div className="footer">
                 <div className="wrapper-footer">
                     <div className="text-light text-center">
-                        <p>&copy; 2020 DOES UNIVERSITY All Rights Reserved</p>
+                        <p className="text-center">Made with <img src={love}className="love"/> in DOES UNIVERSITY</p>
                     </div>
-                    <div className="media">
+                    <div className="media text-center                                                                               ">
                         <a target="blank" href="https://www.instagram.com/doesofficial/?hl=id">
                             <i className="fab fa-instagram fa-2x text-light"></i>
                         </a>

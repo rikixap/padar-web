@@ -13,16 +13,16 @@ class Synopsis extends Component{
                     <Navbar/>
                 </div>
                 <div className="text-light container  wrapper-content">
-                    <h2 className="text-center judul">Synopsis</h2>
+                    <h3 className="text-center judul">Sinopsis</h3>
                     <hr className="pembatas"/>
-                    <div className="content-synopsis text-center">
-                        <p className="juduljudul">Padar</p>
+                    <div className="content-synopsis">
+                        <p className="text-center">Padar</p>
                         <p>  
                             Pada suatu pagi di sebuah Pulau yang terik dan gersang, terdapat tiga sekawan yang sedang berjalan di tengah padang rumput yang menguning karena sebuah kekeringan hebat. Mereka mencari
                             buah-buahan yang masih dapat bertahan dalam kondisi gersang tersebut, hanya sekedar untuk
                             menghilangkan rasa dahaga mereka.</p>
                         <p>Tiga sekawan itu adalah Padar, Sugar dan Grappy. Padar merupakan seorang pemuda yang
-                            tangguh, di temani dengan seekor tupai terbanga bernama Sugar dan satu ekor komodo bernama
+                            tangguh, di temani dengan seekor tupai terbang bernama Sugar dan satu ekor komodo bernama
                             Grappy. Mereka tinggal di sebuah pulau yang pada jaman dahulu di pulau tersebut terdapat ekosistem
                             alam yang seimbang, dimana keserasian kehidupan manusia dengan alam sekitar terjaga dengan baik. Di
                             pulau tersebut terdapat banyak binatang buas yang memiliki racun sangat mematikan yaitu Komodo,
@@ -45,12 +45,21 @@ class Synopsis extends Component{
                             oleh alam pulau tersebutlah yang dapat mengambil benda dalam kuil itu, dan kemudian mengembalikan
                             keadaan alam pulau menjadi seperti sediakala.
                         </p>
-                        <p>
-                            Apakah Padar merupakan manusia yang telah ditunjuk untuk mengendalikan alam pulau tersebut ?
-                            Apakah Grappy merupakan saudara satu darah dengan Padar ?
-                            Lalu bagaiana petualangan mereka di Pulau gersang tersebut ?
-                            Apakah mereka orang yang dapat merubah kondisi alam pulau tersebut ? 
-                        </p>
+
+                        <div className="content-pertanyaan">
+                            <p>
+                                Apakah Padar merupakan manusia yang telah ditunjuk untuk mengendalikan alam pulau tersebut ?
+                            </p>
+                            <p>
+                                Apakah Grappy merupakan saudara satu darah dengan Padar ?
+                            </p>
+                            <p>
+                                Lalu bagaiana petualangan mereka di Pulau gersang tersebut ?
+                            </p>
+                            <p>
+                                Apakah mereka orang yang dapat merubah kondisi alam pulau tersebut ? 
+                            </p>
+                        </div>
 
                     </div>
                 </div>
