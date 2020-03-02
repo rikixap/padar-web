@@ -70,7 +70,7 @@ class TimProduksi extends Component {
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Hendryas</h5>
                                             <p className="p-0 m-0">Produser</p>
-                                            <p className="p-0 m-0">Story BoardAnd Concept Artist</p>
+                                            <p className="p-0 m-0">Story Board And Concept Artist</p>
                                             {/* <p className="p-0 m-0">Produser</p>
                                             <p className="p-0 m-0">Story BoardAnd ConceptArtist</p> */}
                                         </div>
