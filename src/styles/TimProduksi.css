@@ -56,11 +56,14 @@
     }
     .frame{
         margin-bottom: 85px;
+        
+        width: 300px;
+        margin: auto;
+       
     }
     .detail-team{
         /* text-align: center; */
         margin-left: 50px;
-        width: 100%;
     }
     .container-team{
         margin-right: -15px;
@@ -76,7 +79,9 @@
         flex-direction: column;
         justify-content: center;
         margin-top: 15px;
-        margin-left: 60px
+        margin-left: 60px;
+        font-size: 10px;
+        
     }
     .wrapper-tim{
         background-image: url(../images//bg\ Padar/123.png);
