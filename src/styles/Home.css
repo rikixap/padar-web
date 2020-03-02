@@ -117,12 +117,13 @@ body{
     }
     .logo-img{
         /* display: none; */
-        width: 50vw;
+        width: 245px;
         margin: auto;
+        background-color: tomato;
         /* margin-left: 100px;
         margin-right: 100px; */
         /* margin-bottom: 500px; */
-        margin-top: 3vh;
+        margin-top: 2vh;
        
     }
     .padar{
