@@ -19,8 +19,8 @@
     background-color:   #333333;
     bottom: 0;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-top: 10px; */
+    padding-bottom: 20px;
     font-size: 12px;
    
 }

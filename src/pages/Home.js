@@ -16,17 +16,18 @@ import { Link } from 'react-router-dom';
 
 
 const proprieties = {
-    duration: 5000,
+    duration: 4000,
     transitionDuration: 500,
     infinite: true,
-    indicators: true,
-    arrows: true
+    indicators: false,
+    arrows: false,
 }
 
 const Home = () => {
     return (
-        <div className="wrappper-home">
-            <div className="countainerSlide">
+        <Fragment>
+         {/* <div className="wrappper-home"> */}
+            {/* <div className="countainerSlide"> */}
                     <Sidebar />  
                         <div className="logo">
                                 <img className="logo-img" src={Logo}/>
@@ -74,9 +75,10 @@ const Home = () => {
                             </div>
                         </div>
                     </Slide>
-                </div>
+            {/* </div> */}
                 <Footer/>
-        </div>
+         {/* </div> */}
+        </Fragment>
     )
 }
 
