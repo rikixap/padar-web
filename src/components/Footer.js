@@ -9,7 +9,7 @@ class Footer extends Component{
             <div className="footer">
                 <div className="wrapper-footer">
                     <div className="text-light text-center">
-                        <p className="text-center">Made with<img src={love}className="love"/> in DOES UNIVERSITY</p>
+                        <p className="text-center">Made with <img src={love}className="love"/> in DOES UNIVERSITY</p>
                     </div>
                     <div className="media text-center                                                                               ">
                         <a target="blank" href="https://www.instagram.com/doesofficial/?hl=id">
