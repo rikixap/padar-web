@@ -16,7 +16,8 @@
 
 .footer{
     position: fixed;
-    background-color:   #333333;
+    /* background-color:   #333333; */
+    background-color: yellow;
     bottom: 0;
     width: 100%;
     /* padding-top: 10px; */
