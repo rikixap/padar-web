@@ -1,5 +1,10 @@
 body{
-    margin: 0;
+    margin: 0
+}
+
+.wrappper-home {
+    width: 100vw;
+    height: 100vh;
 }
 
 .containerSlide {
@@ -12,6 +17,7 @@ body{
     /* padding-top: 300px; */
     /* margin-left: 100px; */
     /* background-color: pink; */
+    height: 100px;
 }
 
 .each-slide img{
