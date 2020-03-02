@@ -116,11 +116,12 @@ body{
   
     }
     .logo-img{
-        width: 50%;
+        display: none;
+        /* width: 50%; */
         /* margin-left: 100px;
         margin-right: 100px; */
         /* margin-bottom: 500px; */
-        margin-top: 20px;
+        /* margin-top: 20px; */
        
     }
     .padar{
