@@ -3,6 +3,7 @@
     background-attachment: fixed;
     height: 1500px;
     margin-top: -130px;
+
 }
 .boxset{
     border: 3px solid gray;
@@ -156,7 +157,13 @@ object-fit: cover;
         border-radius: 15px;
         height: 950px;
     }
+
+
+    .wrapper-merch{
  
+    height: 1200px;
+}
+
 .detail{
     margin: 0;
 }
@@ -219,6 +226,7 @@ object-fit: cover;
         height: 900px;
     }
     
+
  }
 
  @media (min-width: 1024px) and (max-width: 1366px) { 

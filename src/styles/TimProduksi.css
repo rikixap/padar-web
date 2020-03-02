@@ -88,9 +88,14 @@
     .wrapper-tim{
         background-image: url(../images//bg\ Padar/123.png);
         object-fit: contain;
+
         height: 3900px;
         background-attachment: fixed;
         margin-top: -130px;
+
+        height: 3500px;
+        background-attachment: fixed;
+
     }
     .frame{
         margin:0;

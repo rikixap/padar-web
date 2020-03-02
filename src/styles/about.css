@@ -24,6 +24,7 @@
     border: 1px solid whitesmoke;
     width: 80%;
 
+
 }
 
 @media only screen and (max-width: 600px){
@@ -60,6 +61,30 @@
     
 } 
 
+
+@media only screen and (max-width: 600px){
+    .wrapper-about{
+        background-image: url(../images//bg\ Padar/bgbg1.png);
+        object-fit: contain;
+        height: 2800px;
+        background-attachment: fixed;
+    }
+    .tabel2{
+        
+      margin-left: 0;
+    }
+   
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .wrapper-about{
+        background-image: url(../images//bg\ Padar/bgbg1.png);
+        object-fit: contain;
+        height: 1900px;
+        background-attachment: fixed;
+    }
+    
+} 
 
 
 

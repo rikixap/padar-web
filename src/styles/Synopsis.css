@@ -3,17 +3,22 @@
     background-attachment: fixed;
     /* height: 100px; */
     margin-top: -130px;
+    height: 1100px;
+
 }
+
 .wrapper-header{
     display: flex;
     justify-content: space-between;
 
 }
+
 .home{
     padding-top: 200px;
     padding-left: 100px;
     /* padding-right: 50px; */
 }
+
 .wrapper-content{
     
     /* font-family: 'Indie Flower';
@@ -21,6 +26,7 @@
     padding-top: 150px;
     
 }
+
 .content-synopsis{
     border:10px solid gray;
     border-radius: 15px; 
@@ -29,11 +35,21 @@
     padding-right: 10px;
     padding-left: 10px;
     font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    text-align: justify;
     /* font-family: 'Patrick Hand'; */
+    /* align-self: center; */
 }
-/* .juduljudul{
+
+.content-pertanyaan{
+    padding-top: 50px;
+}
+
+.juduljudul{
     font-size: 40px;
-} */
+}
 
 @media only screen and (max-width: 600px){
     .wrapper-content{
@@ -47,7 +63,10 @@
        padding-right: 5px;
    }
    .wrapper-synopsis{
-    background-image: url(../images/BACKGROUND/BG05.png);
+    height: 1600px;
+}
+.wrapper-synopsis{
+    background-image: url(../images/bg\ Padar/BG02.png);
     background-attachment: fixed;
     /* padding-bottom: 100px; */
     height: 1900px;
@@ -82,12 +101,11 @@
    
 }
 
-@media (min-width: 600px) and (max-width: 800px) { 
+@media (min-width: 768px) and (max-width: 1024px) { 
     .wrapper-synopsis{
         background-image: url(../images/bg\ Padar/BG02.png);
         background-attachment: fixed;
         height: 1300px;
         margin-top: -130px;
     }
-   
-}
+    }
