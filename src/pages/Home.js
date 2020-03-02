@@ -26,7 +26,7 @@ const proprieties = {
 const Home = () => {
     return (
         <Fragment>
-         {/* <div className="wrappper-home"> */}
+         <div className="wrappper-home">
             {/* <div className="countainerSlide"> */}
                     <Sidebar />  
                         <div className="logo">
@@ -77,7 +77,7 @@ const Home = () => {
                     </Slide>
             {/* </div> */}
                 <Footer/>
-         {/* </div> */}
+         </div>
         </Fragment>
     )
 }

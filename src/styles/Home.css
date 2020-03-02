@@ -115,8 +115,9 @@ body{
 @media only screen and (max-width: 600px){
     .react-slideshow-container {
     width: 100vw;
-
-  
+    }
+    .wrapper-home {
+        height: 900px
     }
     .logo-img{
         /* display: none; */
