@@ -117,13 +117,13 @@ body{
     width: 100vw;
     }
     .wrapper-home {
-        height: 900px
+        height: 750px
     }
     .logo-img{
         /* display: none; */
         width: 240px;
         margin: auto;
-        background-color: rgb(238, 92, 226);
+        background-color: rgb(4, 10, 85);
         /* margin-left: 100px;
         margin-right: 100px; */
         /* margin-bottom: 500px; */
