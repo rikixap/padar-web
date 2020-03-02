@@ -20,7 +20,7 @@ class Streaming extends Component{
                     <div className="text-light container wrapper-content">
                         <h2 className="text-center">Streaming</h2>
                         <hr className="pembatas"/>
-                            <Iframe url="https://www.youtube.com/embed/euq-fIZPZY8"
+                            <Iframe url="https://www.youtube.com/embed/h60VOHsLJ3Y"
                                className="tes"
                         />
                     </div>
