@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 
 
 const proprieties = {
-    duration: 10000,
+    duration: 5000,
     transitionDuration: 500,
     infinite: true,
     indicators: true,

@@ -8,7 +8,7 @@
     border-radius: 15px;
     background-color: black;
     margin-top: 10px;
-    opacity: 0.9;
+    opacity: 0.7;
     font-size: 14px;
     padding-right: 10px;
     line-height: 200%;
@@ -20,7 +20,8 @@
 
 .detaildetail{
     padding-top: 60px;
-    padding-bottom: 60px
+    padding-bottom: 60px;
+   
 }
 .juduljudul{
     font-size: 20px;
@@ -31,6 +32,9 @@
 }
 .grappy22{
     margin-top: 40px;
+}
+.detail-content{
+    padding-right: 15px;
 }
 
 @media only screen and (max-width: 640px){

@@ -60,6 +60,7 @@
     .detail-team{
         /* text-align: center; */
         margin-left: 50px;
+        width: 100%;
     }
     .container-team{
         margin-right: -15px;

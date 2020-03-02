@@ -3,34 +3,44 @@
     background-attachment: fixed;
     height: 1000px;
 }
+
 .wrapper-header{
     display: flex;
     justify-content: space-between;
 
 }
+
 .home{
     padding-top: 200px;
     padding-left: 100px;
     /* padding-right: 50px; */
 }
+
 .wrapper-content{
     margin-top: 200px;
     /* font-family: 'Indie Flower';
     font-size: 20px; */
     
 }
+
 .content-synopsis{
     border:10px solid gray;
     border-radius: 15px; 
     background: black;
     opacity: 0.7;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 14px;
     text-align: justify;
     /* font-family: 'Patrick Hand'; */
     /* align-self: center; */
 }
+
+
+.content-pertanyaan{
+    padding-top: 50px;
+}
+
 .juduljudul{
     font-size: 40px;
 }

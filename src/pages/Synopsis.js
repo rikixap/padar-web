@@ -45,12 +45,21 @@ class Synopsis extends Component{
                             oleh alam pulau tersebutlah yang dapat mengambil benda dalam kuil itu, dan kemudian mengembalikan
                             keadaan alam pulau menjadi seperti sediakala.
                         </p>
-                        <p>
-                            Apakah Padar merupakan manusia yang telah ditunjuk untuk mengendalikan alam pulau tersebut ?
-                            Apakah Grappy merupakan saudara satu darah dengan Padar ?
-                            Lalu bagaiana petualangan mereka di Pulau gersang tersebut ?
-                            Apakah mereka orang yang dapat merubah kondisi alam pulau tersebut ? 
-                        </p>
+
+                        <div className="content-pertanyaan">
+                            <p>
+                                Apakah Padar merupakan manusia yang telah ditunjuk untuk mengendalikan alam pulau tersebut ?
+                            </p>
+                            <p>
+                                Apakah Grappy merupakan saudara satu darah dengan Padar ?
+                            </p>
+                            <p>
+                                Lalu bagaiana petualangan mereka di Pulau gersang tersebut ?
+                            </p>
+                            <p>
+                                Apakah mereka orang yang dapat merubah kondisi alam pulau tersebut ? 
+                            </p>
+                        </div>
 
                     </div>
                 </div>

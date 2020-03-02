@@ -22,7 +22,7 @@ class Karakter extends Component{
                                     <img src={karakter1} className="karakter"/> 
                                 </div>
                                 <div className="col-sm-7 detaildetail">
-                                    <h4 className="text-center juduljudul">Padar</h4>
+                                    <h1 className="text-center juduljudul">Padar</h1>
                                     <div className="detail-content">
                                         <p>Padar adalah seorang pemuda pemberani dan selalu optimis,
                                         Dia berasal dari desa tepatnya dari daerah pesisir yang  masih terbilang tradisional dan menjujung tinggi unggah unggah atau tata krama
