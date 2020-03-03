@@ -49,7 +49,7 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Krisna</h5>
-                                            <li className="p-0 m-0">Produser</li>
+                                            <p className="p-0 m-0">Produser</p>
                                             <p className="p-0 m-0">Produser</p>
                                             <p className="p-0 m-0">StoryBoard And Concept Artist</p>
                                             <p className="p-0 m-0">Environment</p>
@@ -69,7 +69,7 @@ class TimProduksi extends Component {
                                             {/* <p className="p-0 m-0">3d Assets Team Character</p>
                                             <p className="p-0 m-0">Technical Director</p> */}
                                             <p className="p-0 m-0">Rigger,vfx 3d</p> 
-                                            <p>Lighting,Rende</p>
+                                            <p>Lighting,render</p>
                                         </div>
                                     </div>
                                     <div className="d-flex frame">
