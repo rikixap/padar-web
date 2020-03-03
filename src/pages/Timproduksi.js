@@ -50,7 +50,6 @@ class TimProduksi extends Component {
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Krisna</h5>
                                             <p className="p-0 m-0">Produser</p>
-                                            <p className="p-0 m-0">Produser</p>
                                             <p className="p-0 m-0">StoryBoard And Concept Artist</p>
                                             <p className="p-0 m-0">Environment</p>
                                             {/* <p className="p-0 m-0">Produser</p>
