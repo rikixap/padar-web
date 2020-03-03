@@ -1,5 +1,5 @@
 .wrapper-about{
-    background-image: url(../images//bg\ Padar/bgbg1.png);
+    background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243868/images/BG01_uhf0y3.png');
     object-fit: contain;
     height: 1600px;
     background-attachment: fixed;
@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 600px){
     .wrapper-about{
-        background-image: url(../images//bg\ Padar/bgbg1.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243868/images/BG01_uhf0y3.png');
         object-fit: contain;
         height: 3000px;
         background-attachment: fixed;
@@ -43,7 +43,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) { 
     .wrapper-about{
-        background-image: url(../images//bg\ Padar/bgbg1.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243868/images/BG01_uhf0y3.png');
         object-fit: contain;
         height: 1900px;
         background-attachment: fixed;
@@ -53,7 +53,7 @@
 
 @media (min-width: 414px) and (max-width: 736px) { 
     .wrapper-about{
-        background-image: url(../images//bg\ Padar/bgbg1.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243868/images/BG01_uhf0y3.png');
         object-fit: contain;
         height: 3000px;
         background-attachment: fixed;
@@ -65,7 +65,7 @@
 
 @media only screen and (max-width: 600px){
     .wrapper-about{
-        background-image: url(../images//bg\ Padar/bgbg1.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243868/images/BG01_uhf0y3.png');
         object-fit: contain;
         height: 2800px;
         background-attachment: fixed;
@@ -80,7 +80,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) { 
     .wrapper-about{
-        background-image: url(../images//bg\ Padar/bgbg1.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243868/images/BG01_uhf0y3.png');
         object-fit: contain;
         height: 1900px;
         background-attachment: fixed;

@@ -1,5 +1,5 @@
 .wrapper-synopsis{
-    background-image: url(../images/bg\ Padar/BG02.png);
+    background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243854/images/BG02_hlpk3c.png');
     background-attachment: fixed;
     /* height: 100px; */
     /* margin-top: -130px; */
@@ -66,7 +66,7 @@
     height: 1600px;
 }
 .wrapper-synopsis{
-    background-image: url(../images/bg\ Padar/BG02.png);
+    background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243854/images/BG02_hlpk3c.png');
     background-attachment: fixed;
     /* padding-bottom: 100px; */
     height: 2000px;
@@ -84,7 +84,7 @@
 
 @media (min-width: 768px) { 
     .wrapper-synopsis{
-        background-image: url(../images/BACKGROUND/BG05.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243854/images/BG02_hlpk3c.png');
         background-attachment: fixed;
         height: 160vh;
        
@@ -94,7 +94,7 @@
 
 @media (min-width: 414px) and (max-width: 736px) { 
     .wrapper-synopsis{
-        background-image: url(../images/bg\ Padar/BG02.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243854/images/BG02_hlpk3c.png');
         background-attachment: fixed;
         height: 1900px;
         /* margin-top: -130px; */
@@ -107,7 +107,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) { 
     .wrapper-synopsis{
-        background-image: url(../images/bg\ Padar/BG02.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243854/images/BG02_hlpk3c.png');
         background-attachment: fixed;
         height: 1300px;
     }

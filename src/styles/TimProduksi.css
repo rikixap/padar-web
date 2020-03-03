@@ -1,5 +1,5 @@
 .wrapper-tim{
-    background-image: url(../images//bg\ Padar/123.png);
+    background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243875/images/123_uoymlc.png');
     object-fit: contain;
     height: 2400px;
     background-attachment: fixed;
@@ -86,7 +86,7 @@
         
     }
     .wrapper-tim{
-        background-image: url(../images//bg\ Padar/123.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243875/images/123_uoymlc.png');
         object-fit: contain;
 
         height: 5000px;

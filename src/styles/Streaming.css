@@ -3,7 +3,7 @@
     border-radius: 15px;
 }
 .wrapper-film{
-    background-image: url(../images//bg\ Padar/padarpadar.png); 
+    background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243846/images/padarpadar_oxqlyo.png'); 
     background-attachment: fixed;
     height: 1000px;
 
@@ -30,7 +30,7 @@
         height: 250px;
     }
     .wrapper-film{
-        background-image: url(../images//bg\ Padar/padarpadar.png); 
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243846/images/padarpadar_oxqlyo.png'); 
         background-attachment: fixed;
         height: 800px;
         margin-top: -130px;

@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/footer.css'
-import love from '../images/LOGO/love.png'
+// import love from '../images/LOGO/love.png'
 
 class Footer extends Component{
     render(){ 
@@ -9,7 +9,7 @@ class Footer extends Component{
             <div className="footer">
                 <div className="wrapper-footer">
                     <div className="text-light text-center">
-                        <p className="text-center">Made with <img src={love}className="love"/> in DOES UNIVERSITY</p>
+                        <p className="text-center">Made with <img src={'https://res.cloudinary.com/divsysf5b/image/upload/v1583243881/images/love_jkho8v.png'}className="love"/> in DOES UNIVERSITY</p>
                     </div>
                     <div className="media text-center                                                                               ">
                         <a target="blank" href="https://www.instagram.com/doesofficial/?hl=id">

@@ -1,5 +1,5 @@
 .wrapper-karakter{
-    background-image: url(../images/bg\ Padar/BG03.png);
+    background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243878/images/BG03_b568gi.png');
     background-attachment: fixed;
     height: 1600px;
     /* margin-top: -130px; */
@@ -55,7 +55,7 @@
         margin-right: -15px;
     }
     .wrapper-karakter{
-        background-image: url(../images/bg\ Padar/BG03.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243878/images/BG03_b568gi.png');
         background-attachment: fixed;
         height: 2500px;
         margin-top: -130px;
@@ -73,7 +73,7 @@
          flex-direction: column;
      }
      .wrapper-karakter{
-        background-image: url(../images/bg\ Padar/BG03.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243878/images/BG03_b568gi.png');
         background-attachment: fixed;
         height: 1500px;
     }
@@ -81,7 +81,7 @@
 }
 @media (min-width: 414px) and (max-width: 736px) { 
     .wrapper-karakter{
-        background-image: url(../images/bg\ Padar/BG03.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243878/images/BG03_b568gi.png');
         background-attachment: fixed;
         height: 2300px;
     }
@@ -90,7 +90,7 @@
 
 @media (min-width: 600px) and (max-width: 800px) { 
     .wrapper-karakter{
-        background-image: url(../images/bg\ Padar/BG03.png);
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243878/images/BG03_b568gi.png');
         background-attachment: fixed;
         height: 1800px;
     }
