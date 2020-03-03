@@ -62,12 +62,13 @@ class TimProduksi extends Component {
                                             <img src={team3} className="fototeam"/>
                                         </div>
                                         <div className="detail-team">
-                                            <h5 className="p-0 m-0">Ridwan</h5>
-                                            <p className="p-0 m-0">3d Assets Team Character</p>
+                                            <h5 className="p-0 m-0">Ridhwan</h5>
                                             <p className="p-0 m-0">Technical Director</p>
+                                            <p className="p-0 m-0">3d Assets Character</p>
                                             {/* <p className="p-0 m-0">3d Assets Team Character</p>
                                             <p className="p-0 m-0">Technical Director</p> */}
-                                            {/* <p className="p-0 m-0">Rigger,vfx 3d,Lighting,Render</p> */}
+                                            <p className="p-0 m-0">Rigger,vfx 3d</p> 
+                                            <p>Lighting,Rende</p>
                                         </div>
                                     </div>
                                     <div className="d-flex frame">
@@ -88,7 +89,7 @@ class TimProduksi extends Component {
                                     </div>
                                     <div className="detail-team">
                                         <h5 className="p-0 m-0">Nanda</h5>
-                                        <p className="p-0 m-0">Assets Team Character</p>
+                                        <p className="p-0 m-0">3D Assets Character</p>
                                 
                                         {/* <p className="p-0 m-0">Produser</p>
                                         <p className="p-0 m-0">Story BoardAnd ConceptArtist</p> */}
@@ -124,7 +125,7 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Kibul</h5>
-                                            <p className="p-0 m-0">Music Composer</p>
+                                            <p className="p-0 m-0">Music Director</p>
                                             {/* <p className="p-0 m-0">Music Composer</p> */}
                                         </div>
                                     </div>
