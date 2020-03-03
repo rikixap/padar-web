@@ -247,3 +247,29 @@ object-fit: cover;
     }
     
  }
+
+ @media (min-width: 1024px) and (max-width: 1366px) { 
+    .wrapper-merch{
+        background-image: url(../images/bg\ Padar/BG01.png); 
+        background-attachment: fixed;
+        height: 1300px;
+    }
+    
+ }
+
+ @media (min-width: 414px) and (max-width: 736px) { 
+    .wrapper-merch{
+        background-image: url(../images/bg\ Padar/BG01.png); 
+        background-attachment: fixed;
+        height: 5000px;
+    }
+    .content {
+        border: 5px solid gray;
+        background-color: black;
+        border-radius: 15px;
+        height: 900px;
+        display: flex;
+        justify-content: center;
+    }
+   
+ }

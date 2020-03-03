@@ -19,6 +19,13 @@ import team15 from '../images/TEAM PADAR/amin.jpg';
 import team16 from  '../images/TEAM PADAR/mayang.jpg';
 import team17 from '../images/TEAM PADAR/septian.jpg';
 import team18 from '../images/TEAM PADAR/ari.jpg';
+import team19 from '../images/TEAM PADAR/nanda.jpg';
+import team20 from '../images/TEAM PADAR/agus.jpg';
+import team21 from '../images/TEAM PADAR/rangga.jpg';
+import team22 from '../images/TEAM PADAR/cahyo.jpg';
+import team23 from '../images/TEAM PADAR/apiet.jpg';
+import team24 from '../images/TEAM PADAR/ricky.jpg';
+
 import '../styles/TimProduksi.css';
 
 class TimProduksi extends Component {
@@ -75,6 +82,18 @@ class TimProduksi extends Component {
                                             <p className="p-0 m-0">Story BoardAnd ConceptArtist</p> */}
                                         </div>
                                     </div>
+                                    <div className="d-flex frame">
+                                    <div>
+                                        <img src={team19} className="fototeam"/>
+                                    </div>
+                                    <div className="detail-team">
+                                        <h5 className="p-0 m-0">Nanda</h5>
+                                        <p className="p-0 m-0">Assets Team Character</p>
+                                
+                                        {/* <p className="p-0 m-0">Produser</p>
+                                        <p className="p-0 m-0">Story BoardAnd ConceptArtist</p> */}
+                                    </div>
+                                </div>
                                     <div className="d-flex frame">
                                         <div>
                                             <img src={team7} className="fototeam"/>
@@ -141,6 +160,26 @@ class TimProduksi extends Component {
                                             <p className="p-0 m-0">SFX</p> */}
                                         </div>
                                     </div>
+                                    <div className="d-flex frame">
+                                        <div>
+                                            <img src={team22} className="fototeam"/>
+                                        </div>
+                                        <div className="detail-team">
+                                            <h5 className="p-0 m-0">Cahyo</h5>
+                                            {/* <li className="p-0 m-0">Supporting Team</li> */}
+                                            <p className="p-0 m-0">Programmer</p>
+                                        </div>
+                                    </div>
+                                    <div className="d-flex frame">
+                                    <div>
+                                        <img src={team23} className="fototeam"/>
+                                    </div>
+                                    <div className="detail-team">
+                                        <h5 className="p-0 m-0">Apiet</h5>
+                                        {/* <li className="p-0 m-0">Supporting Team</li> */}
+                                        <p className="p-0 m-0">Programmer</p>
+                                    </div>
+                                </div>
                             </div>    
                         </div>
                         <div className="d-flex col-6">
@@ -255,6 +294,38 @@ class TimProduksi extends Component {
                                             <p className="p-0 m-0">Supporting Team</p>
                                         </div>
                                     </div>
+                                    <div className="d-flex frame">
+                                        <div>
+                                            <img src={team20} className="fototeam"/>
+                                        </div>
+                                        <div className="detail-team">
+                                            <h5 className="p-0 m-0">Agus</h5>
+                                            {/* <li className="p-0 m-0">Supporting Team</li> */}
+                                            <p className="p-0 m-0">Programmer</p>
+                                        </div>
+                                    </div>
+                                    <div className="d-flex frame">
+                                        <div>
+                                            <img src={team21} className="fototeam"/>
+                                        </div>
+                                        <div className="detail-team">
+                                            <h5 className="p-0 m-0">Rangga</h5>
+                                            {/* <li className="p-0 m-0">Supporting Team</li> */}
+                                            <p className="p-0 m-0">Programmer</p>
+                                        </div>
+                                    </div>
+                                    
+                                  
+                                    <div className="d-flex frame">
+                                    <div>
+                                        <img src={team24} className="fototeam"/>
+                                    </div>
+                                    <div className="detail-team">
+                                        <h5 className="p-0 m-0">Ricky</h5>
+                                        {/* <li className="p-0 m-0">Supporting Team</li> */}
+                                        <p className="p-0 m-0">Programmer</p>
+                                    </div>
+                                </div>
                             </div>    
                         </div>
                     </div>

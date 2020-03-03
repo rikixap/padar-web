@@ -89,9 +89,11 @@
         background-image: url(../images//bg\ Padar/123.png);
         object-fit: contain;
 
-        height: 3900px;
+        height: 5000px;
         background-attachment: fixed;
         margin-top: -130px;
+
+        
         background-attachment: fixed;
 
     }

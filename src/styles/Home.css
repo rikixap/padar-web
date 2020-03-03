@@ -1,6 +1,6 @@
 .wrappper-home {
     display: flex;
-   
+
     width: 100vw;
     /* height: 100vh; */
 
@@ -165,7 +165,6 @@
    }
    .wrappper-home {
     display: flex;
-    background-color: thistle;
     /* width: 100vw; */
     height: 100px;
     
@@ -198,6 +197,8 @@
     }
     
 } 
+
+
 
 
 
