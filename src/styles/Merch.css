@@ -2,7 +2,7 @@
     background-image: url(../images/bg\ Padar/BG01.png); 
     background-attachment: fixed;
     height: 1500px;
-    margin-top: -130px;
+   
 
 }
 .boxset{
@@ -171,6 +171,7 @@ object-fit: cover;
     background-image: url(../images/bg\ Padar/BG01.png); 
     background-attachment: fixed;
     height: 2600px;
+    margin-top: -130px;
 }
 }
 

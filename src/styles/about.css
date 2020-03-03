@@ -3,7 +3,7 @@
     object-fit: contain;
     height: 1600px;
     background-attachment: fixed;
-    margin-top: -130px;
+    /* margin-top: -130px; */
 }
 .wrapper-aboutabout{
         border: 5px solid gray;
@@ -62,12 +62,14 @@
 } 
 
 
+
 @media only screen and (max-width: 600px){
     .wrapper-about{
         background-image: url(../images//bg\ Padar/bgbg1.png);
         object-fit: contain;
         height: 2800px;
         background-attachment: fixed;
+        margin-top: -130px;
     }
     .tabel2{
         

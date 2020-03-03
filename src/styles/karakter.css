@@ -2,7 +2,7 @@
     background-image: url(../images/bg\ Padar/BG03.png);
     background-attachment: fixed;
     height: 1600px;
-    margin-top: -130px;
+    /* margin-top: -130px; */
 
 }
 .content-karakter{
@@ -57,10 +57,8 @@
     .wrapper-karakter{
         background-image: url(../images/bg\ Padar/BG03.png);
         background-attachment: fixed;
-
         height: 2500px;
-
-        height: 2100px;
+        margin-top: -130px;
 
 }
 }
