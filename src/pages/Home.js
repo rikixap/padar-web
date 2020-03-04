@@ -62,14 +62,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="each-slide">
-                            <div className="sugar" >
-                                {/* <div className="teks-padar"> */}
-                                    <p className="tekstrailer">Trailer !!!</p> 
-                                {/* </div> */}
-                                {/* <div className="padar-trailer"> */}
-                                    <Link to="/film" className="btn-trailer text-center">WATCH NOW</Link>
-                                {/* </div> */}
-                            </div>
+                          
                             <div>
                                 <img src={'https://res.cloudinary.com/divsysf5b/image/upload/v1583243851/images/456_n87wio.png'} alt="img3" className="burung"/>
                             </div>
