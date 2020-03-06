@@ -1,0 +1,72 @@
+.emailemail{
+    /* margin-left: 250px;
+    margin-left: 250px; */
+    /* margin-bottom: 100px; */
+    /* margin-top: 25px; */
+    display: flex;
+    justify-content: center;
+}
+.namename{
+    width: 500px;
+}
+.send{
+    margin-right: 10px;
+}
+.buttonsend{
+    margin-top: 50px;
+}
+
+.send-email{
+    background-color: gray;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 20%;
+    padding-top:5px;
+    padding-bottom: 5px;
+   
+}
+
+.cancel-email{
+    margin-left: 10px;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 20%;
+    padding-top:5px;
+    padding-bottom: 5px;
+   
+}
+.teks-kontak{
+    margin-top: 15px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .namename{
+        width: 330px;
+    }
+    .send-email{
+        background-color: gray;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        width: 100px;
+        padding-top:5px;
+        padding-bottom: 5px;
+       
+    }
+
+    .cancel-email{
+        margin-left: 10px;
+        background-color: red;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        width: 100px;
+        padding-top:5px;
+        padding-bottom: 5px;
+       
+    }
+}

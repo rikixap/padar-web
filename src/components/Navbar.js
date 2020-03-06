@@ -34,7 +34,12 @@ class Navbar extends Component {
             this.props.history.push('/karakter')
         }else if(value === 'timproduksi'){
             this.props.history.push('/timproduksi')
+        }else if(value === 'kontak'){
+            this.props.history.push('/kontak')
+        }else if(value === 'donasi'){
+            this.props.history.push('/donasi')
         }
+        
     } 
     home(){
         this.props.history.push('/')
@@ -69,12 +74,28 @@ class Navbar extends Component {
                                     <div className="text-nav" onClick={() => this.linkPage('merch')}>
                                         <Link to="/streaming" className="text-light" ><p className="text-menu">Merch</p></Link>
                                     </div>
-                                    <div className="text-nav" onClick={() => this.linkPage('about')}>
-                                        <Link to="/streaming" className="text-light" ><p className="text-menu">Tentang</p></Link>
+
+                                    <div className="text-nav timpadar">
+
+                                        <div class="text-left  dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            TimPadar
+                                        </div>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <div onClick={() => this.linkPage('donasi')}>
+                                                <Link class="dropdown-item" href="#">Donasi</Link>
+                                            </div>
+                                            <div onClick={() => this.linkPage('about')}>
+                                                <Link class="dropdown-item" href="#">Tentang</Link>
+                                            </div>
+                                            <div onClick={() => this.linkPage('kontak')}>
+                                                <Link class="dropdown-item" href="#">Kontak</Link>
+                                            </div>
+                                            <div onClick={() => this.linkPage('timproduksi')}>
+                                                <Link class="dropdown-item" href="#">Tim Produksi</Link>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div className="text-nav" onClick={() => this.linkPage('timproduksi')}>
-                                        <Link to="/timproduksi" className="text-light" ><p className="text-menu">Tim Produksi</p></Link>
-                                    </div>
+                                   
                                     <div className="p-0 exit">
                                         <FontAwesomeIcon icon="times-circle" className="text-light fas fa-2x close" onClick={() => this.closeSidebar()} />
                                     </div>

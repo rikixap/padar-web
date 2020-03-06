@@ -1,0 +1,168 @@
+.donatur{
+    border :1px solid white;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.avatar{
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.name-donatur{
+    margin-top: 15px;
+}
+.img-donation img{
+    width: 666px;
+}
+.donatur-detail{
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: scroll;
+    height: 480px;
+}
+.donasi-teks{
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 600px){
+    .content-donatur {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-donation img{
+        width: 300px;
+    }
+    .img-donation{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .wrapperimgdn{
+        display: flex;
+        justify-content: center;
+        height: 300px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .img-donation img{
+        width: 300px;
+    }
+    .donatur-detail{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .donatur{
+    border :1px solid white;
+    border-radius: 15px;
+    margin-top: 25px;
+    
+}
+
+.donatur{
+    border :1px solid white;
+    border-radius: 15px;
+    margin-top: 15px;
+    height: 200px;
+   
+    
+
+}
+.avatar{
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+}
+.name-donatur{
+    margin-top: 5px;
+}
+.rupiah{
+    margin-top: -20px;
+}
+
+.donatur{
+    border :1px solid white;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+ }
+
+
+  .img-donation img{
+        width: 300px;
+    }
+    .img-donation{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+
+    .img-donation img{
+        width: 300px;
+    }
+    .img-donation{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    @media (min-width: 1024px) and (max-width: 1366px){
+        .img-donation{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+    
+        }
+        .img-donation img{
+            width: 500px;
+        }
+    }
+
+@media (min-width: 414px) and (max-width: 736px){
+    .content-donatur {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-donation img{
+        width: 300px;
+    }
+    .img-donation{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .wrapperimgdn{
+        display: flex;
+        justify-content: center;
+        height: 300px;
+    }
+}
+
+ 

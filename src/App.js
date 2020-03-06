@@ -13,6 +13,9 @@ import Merch from './pages/Merch';
 import About from './pages/About';
 import Karakter from './pages/karakter';
 import TimProduksi from './pages/Timproduksi';
+import Kontak from './pages/Kontak';
+import Donatur from './pages/Donatur';
+
 
 
 
@@ -28,6 +31,10 @@ function App() {
         <Route path="/about" component={About}/>
         <Route path="/karakter" component={Karakter}/>
         <Route path="/timproduksi" component={TimProduksi}/>
+        <Route path="/kontak" component={Kontak}/>
+        <Route path="/donasi" component={Donatur}/>
+      
+        
     </Router>
     </div>
   );
