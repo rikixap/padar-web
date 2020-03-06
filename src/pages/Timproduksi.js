@@ -179,6 +179,7 @@ class TimProduksi extends Component {
                                         <h5 className="p-0 m-0">Apiet</h5>
                                         {/* <li className="p-0 m-0">Supporting Team</li> */}
                                         <p className="p-0 m-0">Programmer</p>
+                                        <p className="p-0 m-0">SFX</p>
                                     </div>
                                 </div>
                             </div>    
