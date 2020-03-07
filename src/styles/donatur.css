@@ -2,6 +2,7 @@
     border :1px solid white;
     border-radius: 15px;
     margin-top: 15px;
+    height:100px;
 }
 .avatar{
     border: 1px solid white;
@@ -18,7 +19,7 @@
     padding-bottom: 10px;
 }
 .name-donatur{
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .img-donation img{
     width: 666px;
@@ -31,8 +32,15 @@
     height: 480px;
 }
 .donasi-teks{
-    padding-top: 25px;
+    padding-top: -50px;
 }
+.avatar img{
+    width: 30px;
+}
+.rupiah{
+    margin-top: -20px;
+}
+
 
 @media only screen and (max-width: 600px){
     .content-donatur {
@@ -41,6 +49,7 @@
     }
     .img-donation img{
         width: 300px;
+        object-fit: contain;
     }
     .img-donation{
         display: flex;
@@ -58,7 +67,9 @@
 
 @media (min-width: 768px) and (max-width: 1024px) { 
     .img-donation img{
-        width: 300px;
+        width: 500px;
+        object-fit: contain;
+        margin-top: -100px;
     }
     .donatur-detail{
         display: flex;
@@ -76,7 +87,7 @@
     border :1px solid white;
     border-radius: 15px;
     margin-top: 15px;
-    height: 200px;
+    height: 80px;
    
     
 
@@ -133,15 +144,23 @@
     }
 
     @media (min-width: 1024px) and (max-width: 1366px){
-        .img-donation{
+        .avatar{
+          margin-left:0;
+        }
+        .wrapperimgdn{
             display: flex;
             justify-content: center;
-            flex-direction: column;
-    
         }
         .img-donation img{
-            width: 500px;
+            width: 600px;
+            height: 500px;
+            object-fit: contain;
         }
+
+        
+        
+      
+       
     }
 
 @media (min-width: 414px) and (max-width: 736px){
@@ -165,4 +184,57 @@
     }
 }
 
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .donatur{
+        border :1px solid white;
+        border-radius: 15px;
+        margin-top: -230px;
+    }
+    .avatar{
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: -10px;
+    }
+    .img-donation img{
+        width: 300px;
+        object-fit: contain;
+    
+    }
+    .wrapperimgdn{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .img-donation img{
+    
+        height: 150px;
+    }
+    .donasi-teks{
+        padding-top: 25px;
+    }
+    .wrapperimgdn{
+        display: flex;
+        justify-content: center;
+    }
+  
+  
+}
+
+@media (min-width: 834px) and (max-width: 1112px){
+    .img-donation img{
+    
+        height: 150px;
+    }
+    .donasi-teks{
+        padding-top: 25px;
+    }
+    .wrapperimgdn{
+        display: flex;
+        justify-content: center;
+    }
+  
+}
+ 
  

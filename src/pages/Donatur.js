@@ -14,9 +14,9 @@ class Donatur extends Component{
     }
 
     componentDidMount() {
-        var donatur = []
-        axios.get("localhost:5000/v1/donors").then(response => {
-            console.log('ini response',response)
+        // var donatur = []
+        axios.get("http://localhost:5000/v1/donors").then(response => {
+            console.log('ini response',response.data)
             this.setState({data_donatur: response.data.donors})
         })
 
@@ -46,78 +46,24 @@ class Donatur extends Component{
                             
                         </div>
                         <div className="col-lg-4 col-sm-12 col-md-6">
+                        <p className="text-center" style={{paddingTop:'10px'}}><b>Donatur</b></p> 
                         <div className="donatur-detail">
-                        <p className="text-center">Donatur</p> 
-                            {this.state.data_donatur.map((donatur) => {
+                            {this.state.data_donatur.map((donatur,i) => {
                                 return(
-                                    <div className="d-flex donatur">
-                                    <div className="rounded-circle avatar">
-                                      <img src={donatur.avata}/>
+                                    <div key={i} className="wrapper-donatur">
+                                        <div className="d-flex donatur">
+                                            <div className="rounded-circle avatar" style={{borderColor:'#000'}}>
+                                            <img  src={donatur.avatar} style={{width:'80%'}}/>
+                                            </div>
+                                            <div className="name-donatur">
+                                                <p><b>{donatur.fullname}</b></p>
+                                                <p className="rupiah">Rp{donatur.nominal}</p>
+                                            </div>
+                                        </div>   
                                     </div>
-                                    <div className="name-donatur">
-                                        <p>{donatur.fullname}</p>
-                                        <p className="rupiah">{donatur.nominal}</p>
-                                    </div>
-                                </div>
                                 )
-                        
                             })}                  
-                       
-                        <div className="d-flex donatur">
-                            <div className="rounded-circle avatar">
-                                <FontAwesomeIcon icon="user" className="fas fa-2x text-light" />
-                            </div>
-                            <div className="name-donatur">
-                                <p>Nama</p>
-                                <p className="rupiah">Rp.1000.000</p>
-                            </div>
-                        </div> 
-                        <div className="d-flex donatur">
-                            <div className="rounded-circle avatar">
-                                <FontAwesomeIcon icon="user" className="fas fa-2x text-light" />
-                            </div>
-                            <div className="name-donatur">
-                                <p>Nama</p>
-                                <p className="rupiah">Rp.1000.000</p>
-                            </div>
-                        </div> 
-                        <div className="d-flex donatur">
-                            <div className="rounded-circle avatar">
-                                <FontAwesomeIcon icon="user" className="fas fa-2x text-light" />
-                            </div>
-                            <div className="name-donatur">
-                                <p>Nama</p>
-                                <p className="rupiah">Rp.1000.000</p>
-                            </div>
-                        </div>
-                        <div className="d-flex donatur">
-                            <div className="rounded-circle avatar">
-                                <FontAwesomeIcon icon="user" className="fas fa-2x text-light" />
-                            </div>
-                            <div className="name-donatur">
-                                <p>Nama</p>
-                                <p className="rupiah">Rp.1000.000</p>
-                            </div>
-                        </div>
-                        <div className="d-flex donatur">
-                            <div className="rounded-circle avatar">
-                                <FontAwesomeIcon icon="user" className="fas fa-2x text-light" />
-                            </div>
-                            <div className="name-donatur">
-                                <p>Nama</p>
-                                <p className="rupiah">Rp.1000.000</p>
-                            </div>
-                        </div>
-                        
-                        <div className="d-flex donatur">
-                        <div className="rounded-circle avatar">
-                            <FontAwesomeIcon icon="user" className="fas fa-2x text-light" />
-                        </div>
-                        <div className="name-donatur">
-                            <p>Nama</p>
-                            <p className="rupiah">Rp.1000.000</p>
-                        </div>
-                    </div> 
+                    
                         </div>
                                                           
                         </div>
