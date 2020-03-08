@@ -18,7 +18,7 @@
     height: 90vh;
     object-fit: cover;
 }
-.react-slideshow-wrapper.slide{
+.react-slideshow-wrapper .slide{
     /* height: 100vh; */
 }
 /* .react-slideshow-container div.indicators {
@@ -170,7 +170,13 @@
     
 
 } 
- 
+.menu-logo{
+
+    margin-left: -15px;
+}
+ .menu-logo{
+    margin-top: -150px;
+}
 }
 @media (min-width: 481px) and (max-width: 1024px) { 
     body { 

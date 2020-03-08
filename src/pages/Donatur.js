@@ -46,7 +46,7 @@ class Donatur extends Component{
                             
                         </div>
                         <div className="col-lg-4 col-sm-12 col-md-6">
-                        <p className="text-center" style={{paddingTop:'10px'}}><b>Donatur</b></p> 
+                        <p className="text-center text-title-donatur" style={{paddingTop:'10px'}}><b>Donatur</b></p> 
                         <div className="donatur-detail">
                             {this.state.data_donatur.map((donatur,i) => {
                                 return(
