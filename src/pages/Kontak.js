@@ -59,7 +59,7 @@ class Kontak extends Component{
                             </div>
                         </div>
                         <div className="d-flex buttonsend">
-                            <input type="submit" value="Submit" className="send-email"   onClick={()=> this.sendemail()} />
+                            <input type="submit" value="Kirim" className="send-email"   onClick={()=> this.sendemail()} />
                             <button className="cancel-email">Batal</button>
                         </div>
                         <div className="teks-kontak">

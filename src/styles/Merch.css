@@ -169,7 +169,7 @@ object-fit: cover;
     background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243868/images/BG01_uhf0y3.png'); 
     background-attachment: fixed;
     height: 2600px;
-    margin-top: -130px;
+    /* margin-top: -130px; */
 }
 }
 
