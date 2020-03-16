@@ -18,6 +18,16 @@
     padding-left: 10px;
     padding-bottom: 10px;
 }
+
+.wrapperimgdn{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    
+    
+
+}
+
 .name-donatur{
     margin-top: 25px;
 }
@@ -150,6 +160,8 @@
         .wrapperimgdn{
             display: flex;
             justify-content: center;
+            height: 450px;
+
         }
         .img-donation img{
             width: 600px;
@@ -205,6 +217,7 @@
     .wrapperimgdn{
         display: flex;
         justify-content: center;
+        height: 100px;
     
     }
     .img-donation img{

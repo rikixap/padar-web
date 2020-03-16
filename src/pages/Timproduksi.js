@@ -52,9 +52,6 @@ class TimProduksi extends Component {
                                             <p className="p-0 m-0">Produser</p>
                                             <p className="p-0 m-0">StoryBoard And Concept Artist</p>
                                             <p className="p-0 m-0">Environment</p>
-                                            {/* <p className="p-0 m-0">Produser</p>
-                                            <p className="p-0 m-0">StoryBoard And Concept Artist</p>
-                                            <p className="p-0 m-0">Environment</p> */}
                                         </div>
                                     </div>
                                     <div className="d-flex frame">
@@ -65,8 +62,6 @@ class TimProduksi extends Component {
                                             <h5 className="p-0 m-0">Ridhwan</h5>
                                             <p className="p-0 m-0">Technical Director</p>
                                             <p className="p-0 m-0">3d Assets Character</p>
-                                            {/* <p className="p-0 m-0">3d Assets Team Character</p>
-                                            <p className="p-0 m-0">Technical Director</p> */}
                                             <p className="p-0 m-0">Rigger,vfx 3d</p> 
                                             <p>Lighting,render</p>
                                         </div>
@@ -79,8 +74,6 @@ class TimProduksi extends Component {
                                             <h5 className="p-0 m-0">Hendryas</h5>
                                             <p className="p-0 m-0">Produser</p>
                                             <p className="p-0 m-0">Story Board And Concept Artist</p>
-                                            {/* <p className="p-0 m-0">Produser</p>
-                                            <p className="p-0 m-0">Story BoardAnd ConceptArtist</p> */}
                                         </div>
                                     </div>
                                     <div className="d-flex frame">
@@ -90,9 +83,6 @@ class TimProduksi extends Component {
                                     <div className="detail-team">
                                         <h5 className="p-0 m-0">Nanda</h5>
                                         <p className="p-0 m-0">3D Assets Character</p>
-                                
-                                        {/* <p className="p-0 m-0">Produser</p>
-                                        <p className="p-0 m-0">Story BoardAnd ConceptArtist</p> */}
                                     </div>
                                 </div>
                                     <div className="d-flex frame">
@@ -103,8 +93,6 @@ class TimProduksi extends Component {
                                             <h5 className="p-0 m-0">Eko</h5>
                                             <p className="p-0 m-0">Layout</p>
                                             <p className="p-0 m-0">Environment</p>
-                                            {/* <p className="p-0 m-0">Layout</p>
-                                            <p className="p-0 m-0">Environment</p> */}
                                         </div>
                                     </div>
                                     <div className="d-flex frame">
@@ -115,8 +103,6 @@ class TimProduksi extends Component {
                                             <h5 className="p-0 m-0">Rofiq</h5>
                                             <p className="p-0 m-0">Lead Animator</p>
                                             <p className="p-0 m-0">Animation Team</p>
-                                            {/* <p className="p-0 m-0">Lead Animator</p>
-                                            <p className="p-0 m-0">Animation Team</p> */}
                                         </div>
                                     </div>
                                     <div className="d-flex frame">
@@ -126,7 +112,6 @@ class TimProduksi extends Component {
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Kibul</h5>
                                             <p className="p-0 m-0">Music Director</p>
-                                            {/* <p className="p-0 m-0">Music Composer</p> */}
                                         </div>
                                     </div>
                                     <div className="d-flex frame">
@@ -136,7 +121,6 @@ class TimProduksi extends Component {
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Rena</h5>
                                             <p className="p-0 m-0">Environment</p>
-                                            {/* <p className="p-0 m-0">Environment</p> */}
                                         </div>
                                     </div>
                                     <div className="d-flex frame">
@@ -146,7 +130,6 @@ class TimProduksi extends Component {
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Mayang</h5>
                                             <p className="p-0 m-0">Environment</p>
-                                            {/* <p className="p-0 m-0">Environment</p> */}
                                         </div>
                                     </div>
                                     <div className="d-flex frame">
@@ -157,8 +140,6 @@ class TimProduksi extends Component {
                                             <h5 className="p-0 m-0">Septian</h5>
                                             <p className="p-0 m-0">Environment</p>
                                             <p className="p-0 m-0">SFX</p>
-                                            {/* <p className="p-0 m-0">Environment</p>
-                                            <p className="p-0 m-0">SFX</p> */}
                                         </div>
                                     </div>
                                     <div className="d-flex frame">
@@ -167,7 +148,6 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Cahyo</h5>
-                                            {/* <li className="p-0 m-0">Supporting Team</li> */}
                                             <p className="p-0 m-0">Programmer</p>
                                         </div>
                                     </div>
@@ -177,7 +157,6 @@ class TimProduksi extends Component {
                                     </div>
                                     <div className="detail-team">
                                         <h5 className="p-0 m-0">Apiet</h5>
-                                        {/* <li className="p-0 m-0">Supporting Team</li> */}
                                         <p className="p-0 m-0">Programmer</p>
                                         <p className="p-0 m-0">SFX</p>
                                     </div>
@@ -196,10 +175,6 @@ class TimProduksi extends Component {
                                             <p className="p-0 m-0">Animation Team</p>
                                             <p className="p-0 m-0">Render</p>
                                             <p className="p-0 m-0">Layout</p>
-                                            {/* <p className="p-0 m-0">Director</p>
-                                            <p className="p-0 m-0">Animation Team</p>
-                                            <p className="p-0 m-0">Render</p>
-                                            <p className="p-0 m-0">Layout</p> */}
                                         </div>
                                     </div>
                                     <div className="d-flex frame">
@@ -208,13 +183,9 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Magel</h5>
-                                            {/* <li className="p-0 m-0">Layout</li>
-                                            <li className="p-0 m-0">Animation Team</li>
-                                            <li className="p-0 m-0">Render</li>
-                                            <li className="p-0 m-0">Layout</li> */}
                                             <p className="p-0 m-0">Layout</p>
                                             <p className="p-0 m-0">Render</p>
-                                            <p className="p-0 m-0">vfx 3d</p>
+                                            <p className="p-0 m-0">VFX 3d</p>
                                             <p className="p-0 m-0">Environment</p>
                                         </div>
                                     </div>
@@ -224,9 +195,6 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Syahrul</h5>
-                                            {/* <li className="p-0 m-0">Lead Modeling</li>
-                                            <li className="p-0 m-0">Layout</li>
-                                            <li className="p-0 m-0">Environment</li> */}
                                             <p className="p-0 m-0">Lead Modeling</p>
                                             <p className="p-0 m-0"> Layout</p>
                                             <p className="p-0 m-0">Environment</p>
@@ -240,8 +208,6 @@ class TimProduksi extends Component {
                                             <h5 className="p-0 m-0">Kevin</h5>
                                             <p className="p-0 m-0">Animation Team</p>
                                             <p className="p-0 m-0">Render</p>
-                                            {/* <p className="p-0 m-0">Animation Team</p>
-                                            <p>Render</p> */}
                                         </div>
                                     </div>
                                     <div className="d-flex frame">
@@ -250,7 +216,6 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Yayan</h5>
-                                            {/* <li className="p-0 m-0">Animation Team</li> */}
                                             <p className="p-0 m-0">Animation Team</p>
                                         </div>
                                     </div>
@@ -260,7 +225,6 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Gilang</h5>
-                                            {/* <li className="p-0 m-0">Animation Team</li> */}
                                             <p className="p-0 m-0">Animation Team</p>
                                         </div>
                                     </div>
@@ -270,8 +234,6 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Egha</h5>
-                                            {/* <li className="p-0 m-0">Environment</li>
-                                            <li className="p-0 m-0">SFX</li> */}
                                             <p className="p-0 m-0">Environment</p>
                                             <p className="p-0 m-0">SFX</p>
                                         </div>
@@ -282,7 +244,6 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Amin</h5>
-                                            {/* <li className="p-0 m-0">Environment</li> */}
                                             <p className="p-0 m-0">Environment</p>
                                         </div>
                                     </div>
@@ -292,7 +253,6 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Ari</h5>
-                                            {/* <li className="p-0 m-0">Supporting Team</li> */}
                                             <p className="p-0 m-0">Supporting Team</p>
                                         </div>
                                     </div>
@@ -302,7 +262,6 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Agus</h5>
-                                            {/* <li className="p-0 m-0">Supporting Team</li> */}
                                             <p className="p-0 m-0">Programmer</p>
                                         </div>
                                     </div>
@@ -312,19 +271,15 @@ class TimProduksi extends Component {
                                         </div>
                                         <div className="detail-team">
                                             <h5 className="p-0 m-0">Rangga</h5>
-                                            {/* <li className="p-0 m-0">Supporting Team</li> */}
                                             <p className="p-0 m-0">Programmer</p>
                                         </div>
                                     </div>
-                                    
-                                  
                                     <div className="d-flex frame">
                                     <div>
                                         <img src={'https://res.cloudinary.com/divsysf5b/image/upload/v1583243893/images/ricky_vespno.jpg'} className="fototeam"/>
                                     </div>
                                     <div className="detail-team">
                                         <h5 className="p-0 m-0">Ricky</h5>
-                                        {/* <li className="p-0 m-0">Supporting Team</li> */}
                                         <p className="p-0 m-0">Programmer</p>
                                     </div>
                                 </div>

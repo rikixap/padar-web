@@ -4,29 +4,10 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import '../styles/kontak.css';
 import $ from 'jquery';
+
+
 class Kontak extends Component{
-        sendMail(){
-            $('form').on('submit', (e) => {
-                e.preventDefault();
-    
-                const email = $('#email').val().trim();
-                const subject = $('#name').val().trim();
-                const text = $('#text').val().trim();
-    
-                const data = {
-                    email,
-                    subject,
-                    text
-                };
-    
-    
-                $.post('/email', data, function() {
-                    console.log('Server received our data')
-                });
-    
-    
-            });
-        }
+
     render(){
         return(
             <Fragment>
@@ -59,7 +40,7 @@ class Kontak extends Component{
                             </div>
                         </div>
                         <div className="d-flex buttonsend">
-                            <input type="submit" value="Kirim" className="send-email"   onClick={()=> this.sendemail()} />
+                            <input type="submit" value="Kirim" className="send-email"   onClick={()=> this.sendeMail()} />
                             <button className="cancel-email">Batal</button>
                         </div>
                         <div className="teks-kontak">
@@ -73,6 +54,6 @@ class Kontak extends Component{
             </div>
             </Fragment>
         )
-    }
-}
+    };
+};
 export default Kontak;

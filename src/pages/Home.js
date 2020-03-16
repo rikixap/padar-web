@@ -1,4 +1,4 @@
-import React,{Component, Fragment} from 'react';
+import React,{Fragment} from 'react';
 import { Slide } from 'react-slideshow-image';
 import '../styles/Home.css';
 // import img1 from '../images/bg Padar/BG01.png';
@@ -12,7 +12,7 @@ import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
 // import Logo from '../images/LOGO/padarlogo.png';
 // import namepadar from '../images/LOGO/padar.png';
-import { Link } from 'react-router-dom';
+
 
 
 const proprieties = {
