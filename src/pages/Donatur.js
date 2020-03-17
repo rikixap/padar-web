@@ -17,7 +17,7 @@ class Donatur extends Component{
 
     componentDidMount() {
         // var donatur = []
-        axios.get("http://localhost:5000/v1/donors").then(response => {
+        axios.get("https://serene-ravine-07955.herokuapp.com/v1/donors").then(response => {
             console.log('ini response',response.data)
             this.setState({data_donatur: response.data.donors})
         })
