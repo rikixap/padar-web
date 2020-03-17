@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import '../styles/donatur.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import imgdonation from '../imagess/donation.jpg'
+import imgdonation from '../imagess/donation.jpg';
 import axios from 'axios';
 
 
@@ -17,7 +17,7 @@ class Donatur extends Component{
 
     componentDidMount() {
         // var donatur = []
-        axios.get("http://localhost:5000/v1/donors").then(response => {
+        axios.get("https://dashboard.heroku.com/apps/serene-ravine-07955/deploy/github").then(response => {
             console.log('ini response',response.data)
             this.setState({data_donatur: response.data.donors})
         })
