@@ -71,6 +71,7 @@ class Donatur extends Component{
                             </div>
                                 
                             <div className="jumlah-donasi">
+                                <hr className="pembatas"/>
                                 <p> Jumlah Donasi : Rp. 1.200.000,00</p>
                             </div>
                         </div>
