@@ -22,19 +22,19 @@
 .wrapperimgdn{
     display: flex;
     justify-content: center;
-    height: 600px 400px;
+    height: 450px;
     
     
-
 }
 
 .name-donatur{
     margin-top: 25px;
 }
 .img-donation img{
-    width: 300px;
+    width: 600px;
     height: 420px;
 }
+
 .donatur-detail{
     border: 1px solid white;
     padding-left: 10px;
@@ -144,15 +144,6 @@
     }
 
 
-    .img-donation img{
-        width: 300px;
-    }
-    .img-donation{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-
-    }
 
     @media (min-width: 1024px) and (max-width: 1366px){
         .avatar{
