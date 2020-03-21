@@ -23,8 +23,13 @@
 .detaildetail{
     padding-top: 60px;
     padding-bottom: 60px;
-   
+    
 }
+
+.detail-content{
+    padding-right: 20px;
+}
+
 .juduljudul{
     font-size: 20px;
 }
