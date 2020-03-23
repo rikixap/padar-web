@@ -1,7 +1,7 @@
 import React,{Component, Fragment} from 'react';
 import '../styles/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { BrowserRouter as Router, Route, Link,withRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link , withRouter } from "react-router-dom";
 
 class Sidebar extends Component {
     openSidebar () {
@@ -79,16 +79,16 @@ class Sidebar extends Component {
                                         </div>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                             <div onClick={() => this.linkPage('donasi')}>
-                                                <Link class="dropdown-item" href="#">Donasi</Link>
+                                                <Link class="dropdown-item">Donasi</Link>
                                             </div>
                                             <div onClick={() => this.linkPage('about')}>
-                                                <Link class="dropdown-item" href="#">Tentang</Link>
+                                                <Link class="dropdown-item">Tentang</Link>
                                             </div>
                                             <div onClick={() => this.linkPage('kontak')}>
-                                                <Link class="dropdown-item" href="#">Kontak</Link>
+                                                <Link class="dropdown-item">Kontak</Link>
                                             </div>
                                             <div onClick={() => this.linkPage('timproduksi')}>
-                                                <Link class="dropdown-item" href="#">Tim Produksi</Link>
+                                                <Link class="dropdown-item">Tim Produksi</Link>
                                             </div>
                                         </div>
                                     </div>
