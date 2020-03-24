@@ -57,15 +57,17 @@
         margin-top: 130px;
      
     } */
-   .content-synopsis{
-       margin-left: -15px;
-       margin-right: -15px;
-       padding-left: 10px;
-       padding-right: 5px;
-   }
-   .wrapper-synopsis{
-    height: 1600px;
+    .content-synopsis{
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-left: 10px;
+        padding-right: 5px;
     }
+
+    .wrapper-synopsis{
+        height: 1600px;
+    }
+
     .wrapper-synopsis{
         background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243854/images/BG02_hlpk3c.png');
         background-attachment: fixed;

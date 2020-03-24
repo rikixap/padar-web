@@ -33,7 +33,7 @@
 }
 .img-donation img{
     width: 666px;
-    height: 200px;
+    height: 400px;
 }
 
 .donatur-detail{
@@ -55,7 +55,7 @@
 
 
 
-@media only screen and (max-width: 600px){
+@media (max-width: 600px){
     .content-donatur {
         display: flex;
         flex-direction: column;

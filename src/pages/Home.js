@@ -23,7 +23,7 @@ const proprieties = {
     arrows: true,
 }
 
-const Home = () => {
+const Home = () => { 
     return (
         <Fragment>
          <div className="wrappper-home">
