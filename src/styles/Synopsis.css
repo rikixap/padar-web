@@ -65,21 +65,21 @@
    }
    .wrapper-synopsis{
     height: 1600px;
-}
-.wrapper-synopsis{
-    background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243854/images/BG02_hlpk3c.png');
-    background-attachment: fixed;
-    /* padding-bottom: 100px; */
-    height: 2000px;
-  
-}
-.wrapper-content{
+    }
+    .wrapper-synopsis{
+        background-image: url('https://res.cloudinary.com/divsysf5b/image/upload/v1583243854/images/BG02_hlpk3c.png');
+        background-attachment: fixed;
+        /* padding-bottom: 100px; */
+        height: 1777px;
     
-    /* font-family: 'Indie Flower';
-    font-size: 20px; */
-    padding-top: 50px;
-    
-}
+    }
+    .wrapper-content{
+        
+        /* font-family: 'Indie Flower';
+        font-size: 20px; */
+        padding-top: 1px;
+        
+    }
  
 }
 
