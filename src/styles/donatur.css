@@ -33,7 +33,7 @@
 }
 .img-donation img{
     width: 666px;
-    height: 420px;
+    height: 200px;
 }
 
 .donatur-detail{
@@ -52,6 +52,7 @@
 .rupiah{
     margin-top: -20px;
 }
+
 
 
 @media only screen and (max-width: 600px){
@@ -76,6 +77,8 @@
     }
 
 }
+
+
 
 @media (min-width: 768px) and (max-width: 1024px) { 
     .img-donation img{
@@ -150,12 +153,10 @@
         height: 500px;
         object-fit: contain;
     }
-
-        
-        
       
-       
 }
+
+
 
 @media (min-width: 414px) and (max-width: 736px){
     .content-donatur {
@@ -163,7 +164,8 @@
         flex-direction: column;
     }
     .img-donation img{
-        width: 300px;
+        width: 348px;
+        height: 200px;
     }
     .img-donation{
         display: flex;
@@ -186,32 +188,29 @@
         border-radius: 15px;
         margin-top: -230px;
     }
+
     .avatar{
         margin-top: 15px;
         margin-left: 0px;
         margin-right: -10px;
     }
+
     .img-donation img{
         width: 300px;
         object-fit: contain;
-    
+        height: 150px;
+
     }
+
     .wrapperimgdn{
         display: flex;
         justify-content: center;
         height: 100px;
     
     }
-    .img-donation img{
-    
-        height: 150px;
-    }
+
     .donasi-teks{
         padding-top: 25px;
-    }
-    .wrapperimgdn{
-        display: flex;
-        justify-content: center;
     }
   
   
@@ -219,12 +218,13 @@
 
 @media (min-width: 834px) and (max-width: 1112px){
     .img-donation img{
-    
         height: 150px;
     }
+
     .donasi-teks{
         padding-top: 25px;
     }
+
     .wrapperimgdn{
         display: flex;
         justify-content: center;
