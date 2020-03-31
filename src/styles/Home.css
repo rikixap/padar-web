@@ -18,12 +18,7 @@
     height: 90vh;
     object-fit: cover;
 }
-.react-slideshow-wrapper .slide{
-    /* height: 100vh; */
-}
-/* .react-slideshow-container div.indicators {
-    display: none;
-}  */
+
 .react-slideshow-container {
     display: flex;
     width: 100vw;
@@ -42,12 +37,11 @@
 }
 
 .logo-img{
-    /* background-color: brown; */
-    width: 30%;
-    margin-left: 35%;
-    /* margin-top: -20%; */
+
+    width: 41%;
+    margin-left: 30%;
     margin-top: 50px;
-    /* height: 100px; */
+    height: 300px;
     
 }
 

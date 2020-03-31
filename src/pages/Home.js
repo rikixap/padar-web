@@ -34,31 +34,18 @@ const Home = () => {
                         </div>
                     <Slide {...proprieties}>
                         <div className="each-slide">
-                            <div className="padar">
-                                <img src={'https://res.cloudinary.com/divsysf5b/image/upload/v1583243908/images/PADAR_CROPED_ullbnm.png'}/>
-                                {/* <p className="teks-trailer">PADAR</p>  */}
-                            </div>
-                    
                             <div>
-                                <img src={'https://res.cloudinary.com/divsysf5b/image/upload/v1583243868/images/BG01_uhf0y3.png'} alt="img1" />
+                                <img src={'https://res.cloudinary.com/divsysf5b/image/upload/v1585625477/images/SC03_SH251648_acqowb.png'} alt="img2" />
                             </div>
                         </div>
                         <div className="each-slide">
-                            <div className="padar">
-                                <img src={'https://res.cloudinary.com/divsysf5b/image/upload/v1583243917/images/SUGAR_pddmtc.png'}/>
-                                {/* <p className="teks-trailer">SUGAR</p>  */}
-                            </div>
                             <div>
-                                <img src={'https://res.cloudinary.com/divsysf5b/image/upload/v1583243854/images/BG02_hlpk3c.png'} alt="img2" />
+                                <img src={'https://res.cloudinary.com/divsysf5b/image/upload/v1585625498/images/SC01_SH997168_l5olzo.png'} alt="img1" />
                             </div>
                         </div>
                         <div className="each-slide">
-                            <div className="padar">
-                                <img src={'https://res.cloudinary.com/divsysf5b/image/upload/v1583243912/images/GRAPY_vga95s.png'}/>
-                                {/* <p className="teks-trailer">GRAPY</p>  */}
-                            </div>
                             <div>
-                                <img src={'https://res.cloudinary.com/divsysf5b/image/upload/v1583243878/images/BG03_b568gi.png'} alt="img3" />
+                                <img src={'https://res.cloudinary.com/divsysf5b/image/upload/v1585625465/images/SC01_SH884667_bttvov.png'} alt="img3" />
                             </div>
                         </div>
                         <div className="each-slide">
