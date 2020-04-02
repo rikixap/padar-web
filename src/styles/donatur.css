@@ -68,94 +68,34 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-
+        
     }
     .wrapperimgdn{
         display: flex;
         justify-content: center;
         height: 300px;
     }
-
+    
 }
 
 
-
-@media (min-width: 768px) and (max-width: 1024px) { 
-    .img-donation img{
-        width: 500px;
-        object-fit: contain;
-        margin-top: -100px;
-    }
-    .donatur-detail{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .donatur{
-        border :1px solid white;
-        border-radius: 15px;
-        margin-top: 25px;
-    
-    }
-
-    .donatur{
-        border :1px solid white;
-        border-radius: 15px;
-        margin-top: 15px;
-        height: 80px;
-   
-    
-
-    }
-    .avatar{
-        border: 1px solid white;
-        margin-left: 20px;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        margin-right: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10px;
-        padding-right: 10px;
-        padding-left: 10px;
-        padding-bottom: 10px;
-        height: 40px;
-    }
-    .name-donatur{
-        margin-top: 5px;
-    }
-    .rupiah{
-        margin-top: -20px;
-    }
-
-    .donatur{
-        border :1px solid white;
-        border-radius: 15px;
-        margin-top: 10px;
-    }
-}
-
-
-
-@media (min-width: 1024px) and (max-width: 1366px){
-    .avatar{
-        margin-left:0;
-    }
-    .wrapperimgdn{
-        display: flex;
-        justify-content: center;
-        height: 450px;
-
-    }
-    .img-donation img{
-        width: 600px;
-        height: 500px;
+@media (min-width: 360px) and (max-width: 640px){
+    .img-donation img {
+        width: 293px;
+        height: 200px;
         object-fit: contain;
     }
-      
+
 }
 
+
+@media (min-width: 412px) and (max-width: 846px){
+    .img-donation img {
+        width: 350px;
+        height: 250px;
+        object-fit: contain;
+    }
+}
 
 
 @media (min-width: 414px) and (max-width: 736px){
@@ -183,40 +123,57 @@
 }
 
 
+@media (min-width: 414px) and (max-width: 896px){
+    .img-donation img {
+        width: 350px;
+        height: 250px;
+        object-fit: contain;
+    }
+}
 
-@media (min-width: 768px) and (max-width: 1024px){
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .img-donation img{
+        width: 500px;
+        object-fit: contain;
+        margin-top: -100px;
+    }
+    .donatur-detail{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     .donatur{
         border :1px solid white;
         border-radius: 15px;
-        margin-top: -230px;
-    }
-
-    .avatar{
-        margin-top: 15px;
-        margin-left: 0px;
-        margin-right: -10px;
-    }
-
-    .img-donation img{
-        width: 300px;
-        object-fit: contain;
-        height: 150px;
-
-    }
-
-    .wrapperimgdn{
-        display: flex;
-        justify-content: center;
-        height: 100px;
+        margin-top: 25px;
+        height: 80px;
     
     }
 
-    .donasi-teks{
-        padding-top: 25px;
+    .avatar{
+        border: 1px solid white;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        height: 40px;
     }
-  
-  
+    .name-donatur{
+        margin-top: 5px;
+    }
+    .rupiah{
+        margin-top: -20px;
+    }
 }
+
 
 @media (min-width: 834px) and (max-width: 1112px){
     .img-donation img{
@@ -233,5 +190,23 @@
     }
   
 }
- 
- 
+
+
+@media (min-width: 1024px) and (max-width: 1366px){
+    .avatar{
+        margin-left:0;
+    }
+    .wrapperimgdn{
+        display: flex;
+        justify-content: center;
+        height: 450px;
+
+    }
+    .img-donation img{
+        width: 670px;
+        height: 377px;
+        object-fit: contain;
+    }
+      
+}
+
