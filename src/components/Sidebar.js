@@ -63,13 +63,13 @@ class Sidebar extends Component {
                                         <Link to="/about" style={{textDecoration: 'none'}}><p className="text-menu">Sinopsis</p></Link>
                                     </div>
                                     <div className="text-nav" onClick={() => this.linkPage('karakter')}>
-                                        <Link to="/synopsis" className="text-light" ><p className="text-menu">Karakter</p></Link>
+                                        <Link to="/synopsis" style={{textDecoration: 'none'}}><p className="text-menu">Karakter</p></Link>
                                     </div>
-                                    <div className="text-nav"  onClick={() => this.linkPage('film')}>
-                                        <Link to="/merch" className="text-light"><p className="text-menu">Film</p></Link>
+                                    <div className="text-nav" onClick={() => this.linkPage('film')}>
+                                        <Link to="/merch" style={{textDecoration: 'none'}}><p className="text-menu">Film</p></Link>
                                     </div>
                                     <div className="text-nav" onClick={() => this.linkPage('merch')}>
-                                        <Link to="/streaming" className="text-light" ><p className="text-menu">Merch</p></Link>
+                                        <Link to="/streaming" style={{textDecoration: 'none'}}><p className="text-menu">Merch</p></Link>
                                     </div>
 
                                     <div className="text-nav timpadar">
