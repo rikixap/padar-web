@@ -20,32 +20,32 @@ class Kontak extends Component{
                     <hr className="pembatas"/>
                     <div className="content-synopsis">
                     <div className="emailemail">
-                        <form>
-                        <div>
-                            <label>Nama :</label>
-                            <div> 
-                                <input type="text" id="name"  className="namename"/>
-                            </div>
-                        </div>
-                        <div>
-                            <label>Alamat Email :</label>
+                        <form  action="https://formspree.io/mvowkqpy" method="POST">
                             <div>
-                                <input type="email" id="email" className="namename"/>
+                                <label>Nama :</label>
+                                <div> 
+                                    <input type="text" id="name" name="name" className="namename"/>
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            <label>Pesan :</label>
                             <div>
-                                <textarea name="text" id="text" className="namename"></textarea>
+                                <label>Alamat Email :</label>
+                                <div>
+                                    <input type="email" id="email" name="_replyto" className="namename"/>
+                                </div>
                             </div>
-                        </div>
-                        <div className="d-flex buttonsend">
-                            <input type="submit" value="Kirim" className="send-email"   onClick={()=> this.sendeMail()} />
-                            <button className="cancel-email">Batal</button>
-                        </div>
-                        <div className="teks-kontak">
-                            <p className="text-right">**for New Business,Media Relations,Partnerships**</p>
-                        </div>
+                            <div>
+                                <label>Pesan :</label>
+                                <div>
+                                    <textarea name="text" id="text" name="text" className="namename"></textarea>
+                                </div>
+                            </div>
+                            <div className="d-flex buttonsend">
+                                <input type="submit" value="send"  className="send-email" onClick={()=> this.sendeMail()} />
+                                <button className="cancel-email">Batal</button>
+                            </div>
+                            <div className="teks-kontak">
+                                <p className="text-right">**for New Business,Media Relations,Partnerships**</p>
+                            </div>
                         </form>
                     </div>
                     </div>
